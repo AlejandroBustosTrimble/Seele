@@ -1,0 +1,9 @@
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.deps.json
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.AssemblyInfoInputs.cache
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.AssemblyInfo.cs
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.csproj.CoreCompileInputs.cache
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.csprojAssemblyReference.cache

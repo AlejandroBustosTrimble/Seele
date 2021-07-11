@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Fwk\Api\RAK.Fwk.Api.Adapter\RAK.Fwk.Api.Adapter.csproj" />
+    <ProjectReference Include="..\..\..\Fwk\Common\RAK.Fwk.Common.DependencyInjection\RAK.Fwk.Common.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\..\Fwk\Common\RAK.Fwk.Common.Log\RAK.Fwk.Common.Log.csproj" />
+    <ProjectReference Include="..\RAK.Core.Api.Adapter.Abstraction\RAK.Core.Api.Adapter.Abstraction.csproj" />
+    <ProjectReference Include="..\RAK.Core.Api.Model\RAK.Core.Api.Model.csproj" />
+  </ItemGroup>
+
+</Project>

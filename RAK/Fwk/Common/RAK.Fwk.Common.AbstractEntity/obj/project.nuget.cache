@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RoqpQGTVpE9R3/5hYKRecILqM94Cq19FtS09cxur4LHEYboG+rH453V+07LmGtd6AvKI27gR0r+3d12RiTImpQ==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,195 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "RAK.Core.Api.DIRegistration/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Core.Api.DIRegistration.dll": {}
+        }
+      },
+      "Autofac/4.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.0.0",
+            "fileVersion": "4.9.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "runtime": {
+          "RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "runtime": {
+          "RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RAK.Core.Api.DIRegistration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/4.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HoBqjxe/Kt6ckXfh4ERkZmSSbFHKu+lqdz28++AVoMqu6yew5xmcJp73bZBs3AINgTtBZe6isoZeI67HufauRw==",
+      "path": "autofac/4.9.0",
+      "hashPath": "autofac.4.9.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "RAK.Core.Api.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Core.Service.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Api.Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Api.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Common.Log/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Service.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

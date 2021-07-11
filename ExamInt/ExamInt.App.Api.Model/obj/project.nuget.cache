@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wPr6AtikOuZVLGXY+IZp+tQOpZ3pUbXa2YQPN7Utnv0XrpAKNneuBl55qEREdnmlABOJ1TQuXpcqVNQA7Cz/rA==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Api.Model\\ExamInt.App.Api.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

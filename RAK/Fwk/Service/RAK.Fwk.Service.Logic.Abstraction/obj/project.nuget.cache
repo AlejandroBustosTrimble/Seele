@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "n1nBkU8QNoi/8wuzTi4JEbEru6oznBpUEGkzwWOVxBYxoWbE5e12v7+nn5nzlfojmgljKzM02B6kw1bF4l6ncQ==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

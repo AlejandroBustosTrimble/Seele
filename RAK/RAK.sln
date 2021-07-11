@@ -1,0 +1,391 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fwk", "Fwk", "{DA66037E-2C4C-4A5F-989B-05BF106428A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9DD5DE1A-B743-406D-ACED-BD50F2726999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{334496B1-3696-40FD-BCA4-76CFFE78CDF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{054C44FD-92DD-4EDD-82CB-7C8E15BE2D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{ADC488A4-7A61-4031-BF08-B2479D2CAADF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8AD83C35-3AE3-49C0-BFE2-F67C19DBB29C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E22AC614-54D5-4B13-83FA-AA3DA4D3A144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{33A7140B-1E82-4714-BB03-4FC9ABA54FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1662C151-3924-47D6-9C5C-D8F8F748A64F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{F0E305CB-C19B-4493-9E66-444FEF06D7CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{92C5EA7B-0332-4900-BF38-BA469D031568}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9E76EEDF-5722-4ED9-93F2-A45639CD2D37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.AbstractEntity", "Fwk\Common\RAK.Fwk.Common.AbstractEntity\RAK.Fwk.Common.AbstractEntity.csproj", "{041F3F87-DDEF-4138-81F9-B6786668E55B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.Adapter", "Fwk\Api\RAK.Fwk.Api.Adapter\RAK.Fwk.Api.Adapter.csproj", "{12DFB06B-479E-4399-BE35-F2998EED259A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.Model", "Fwk\Api\RAK.Fwk.Api.Model\RAK.Fwk.Api.Model.csproj", "{E3599DC9-79DC-4C20-A26C-A8DF474A6825}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.WebApi", "Fwk\Api\RAK.Fwk.Api.WebApi\RAK.Fwk.Api.WebApi.csproj", "{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Cross", "Fwk\Common\RAK.Fwk.Common.Cross\RAK.Fwk.Common.Cross.csproj", "{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.DependencyInjection", "Fwk\Common\RAK.Fwk.Common.DependencyInjection\RAK.Fwk.Common.DependencyInjection.csproj", "{8DF86BAF-62B6-425D-98B1-82EA9F5AD123}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Entity", "Fwk\Service\RAK.Fwk.Service.Entity\RAK.Fwk.Service.Entity.csproj", "{79399B44-1274-4644-B346-FBF8C5527B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Logic", "Fwk\Service\RAK.Fwk.Service.Logic\RAK.Fwk.Service.Logic.csproj", "{848AF3BC-DBEA-44EE-A065-B0555BEC6B36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Logic.Abstraction", "Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\RAK.Fwk.Service.Logic.Abstraction.csproj", "{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Log", "Fwk\Common\RAK.Fwk.Common.Log\RAK.Fwk.Common.Log.csproj", "{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Mapper", "Fwk\Common\RAK.Fwk.Common.Mapper\RAK.Fwk.Common.Mapper.csproj", "{9FC11E5B-565C-4175-8547-E1E66C82B11F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Repository", "Fwk\Service\RAK.Fwk.Service.Repository\RAK.Fwk.Service.Repository.csproj", "{7233DA34-176D-4752-B30A-2941E7E9C1C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Repository.Abstraction", "Fwk\Service\RAK.Fwk.Service.Repository.Abstraction\RAK.Fwk.Service.Repository.Abstraction.csproj", "{3E605822-4254-4CCE-88E5-17CD19355874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Cross", "Fwk\UI\RAK.Fwk.UI.Cross\RAK.Fwk.UI.Cross.csproj", "{4D5AA922-65BF-4D12-A341-BB5536AE7D0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Desk.Console", "Fwk\UI\RAK.Fwk.UI.Desk.Console\RAK.Fwk.UI.Desk.Console.csproj", "{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Desk.Cross", "Fwk\UI\RAK.Fwk.UI.Desk.Cross\RAK.Fwk.UI.Desk.Cross.csproj", "{1868AB0C-2C73-4D8C-B80C-7DAEA922260B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Desk.WinForm", "Fwk\UI\RAK.Fwk.UI.Desk.WinForm\RAK.Fwk.UI.Desk.WinForm.csproj", "{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Web.Cross", "Fwk\UI\RAK.Fwk.UI.Web.Cross\RAK.Fwk.UI.Web.Cross.csproj", "{F140AFD3-7185-4FB3-AA3B-974317390B88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.UI.Web.Mvc", "Fwk\UI\RAK.Fwk.UI.Web.Mvc\RAK.Fwk.UI.Web.Mvc.csproj", "{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Adapter", "Core\Api\RAK.Core.Api.Adapter\RAK.Core.Api.Adapter.csproj", "{E9DCC019-4401-4969-81AC-974A61E5A3B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Adapter.Abstraction", "Core\Api\RAK.Core.Api.Adapter.Abstraction\RAK.Core.Api.Adapter.Abstraction.csproj", "{D04FDB26-273B-464A-B119-69BF1D6EE2B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Entity", "Core\Service\RAK.Core.Service.Entity\RAK.Core.Service.Entity.csproj", "{DF35C70D-555E-43ED-8E19-9399833DDC7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Logic", "Core\Service\RAK.Core.Service.Logic\RAK.Core.Service.Logic.csproj", "{029B0BD3-05B8-48B1-BDAE-6EA6338D0976}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Logic.Abstraction", "Core\Service\RAK.Core.Service.Logic.Abstraction\RAK.Core.Service.Logic.Abstraction.csproj", "{EB6574FB-177A-4006-ADC5-2D0B41A33B27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository", "Core\Service\RAK.Core.Service.Repository\RAK.Core.Service.Repository.csproj", "{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository.Abstraction", "Core\Service\RAK.Core.Service.Repository.Abstraction\RAK.Core.Service.Repository.Abstraction.csproj", "{74B12ABD-C468-4F9B-8A0F-4D533E70FA18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository.Database", "Core\Service\RAK.Core.Service.Repository.Database\RAK.Core.Service.Repository.Database.csproj", "{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Model", "Core\Api\RAK.Core.Api.Model\RAK.Core.Api.Model.csproj", "{A711B9CC-427D-4137-A9A9-6AFE6364E024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAK.Core.Api.WebApi", "Core\Api\RAK.Core.Api.WebApi\RAK.Core.Api.WebApi.csproj", "{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.DIRegistration", "Core\Api\RAK.Core.Api.DIRegistration\RAK.Core.Api.DIRegistration.csproj", "{D0698517-2199-43BB-8FB4-C2154C0F0AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041F3F87-DDEF-4138-81F9-B6786668E55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041F3F87-DDEF-4138-81F9-B6786668E55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041F3F87-DDEF-4138-81F9-B6786668E55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041F3F87-DDEF-4138-81F9-B6786668E55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DFB06B-479E-4399-BE35-F2998EED259A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DFB06B-479E-4399-BE35-F2998EED259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DFB06B-479E-4399-BE35-F2998EED259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DFB06B-479E-4399-BE35-F2998EED259A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3599DC9-79DC-4C20-A26C-A8DF474A6825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3599DC9-79DC-4C20-A26C-A8DF474A6825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3599DC9-79DC-4C20-A26C-A8DF474A6825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3599DC9-79DC-4C20-A26C-A8DF474A6825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF86BAF-62B6-425D-98B1-82EA9F5AD123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF86BAF-62B6-425D-98B1-82EA9F5AD123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF86BAF-62B6-425D-98B1-82EA9F5AD123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF86BAF-62B6-425D-98B1-82EA9F5AD123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79399B44-1274-4644-B346-FBF8C5527B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79399B44-1274-4644-B346-FBF8C5527B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79399B44-1274-4644-B346-FBF8C5527B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79399B44-1274-4644-B346-FBF8C5527B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848AF3BC-DBEA-44EE-A065-B0555BEC6B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848AF3BC-DBEA-44EE-A065-B0555BEC6B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848AF3BC-DBEA-44EE-A065-B0555BEC6B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848AF3BC-DBEA-44EE-A065-B0555BEC6B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC11E5B-565C-4175-8547-E1E66C82B11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC11E5B-565C-4175-8547-E1E66C82B11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC11E5B-565C-4175-8547-E1E66C82B11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC11E5B-565C-4175-8547-E1E66C82B11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7233DA34-176D-4752-B30A-2941E7E9C1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7233DA34-176D-4752-B30A-2941E7E9C1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7233DA34-176D-4752-B30A-2941E7E9C1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7233DA34-176D-4752-B30A-2941E7E9C1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E605822-4254-4CCE-88E5-17CD19355874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E605822-4254-4CCE-88E5-17CD19355874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E605822-4254-4CCE-88E5-17CD19355874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E605822-4254-4CCE-88E5-17CD19355874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5AA922-65BF-4D12-A341-BB5536AE7D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5AA922-65BF-4D12-A341-BB5536AE7D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5AA922-65BF-4D12-A341-BB5536AE7D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5AA922-65BF-4D12-A341-BB5536AE7D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1868AB0C-2C73-4D8C-B80C-7DAEA922260B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1868AB0C-2C73-4D8C-B80C-7DAEA922260B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1868AB0C-2C73-4D8C-B80C-7DAEA922260B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1868AB0C-2C73-4D8C-B80C-7DAEA922260B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F140AFD3-7185-4FB3-AA3B-974317390B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F140AFD3-7185-4FB3-AA3B-974317390B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F140AFD3-7185-4FB3-AA3B-974317390B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F140AFD3-7185-4FB3-AA3B-974317390B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DCC019-4401-4969-81AC-974A61E5A3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DCC019-4401-4969-81AC-974A61E5A3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DCC019-4401-4969-81AC-974A61E5A3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DCC019-4401-4969-81AC-974A61E5A3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04FDB26-273B-464A-B119-69BF1D6EE2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04FDB26-273B-464A-B119-69BF1D6EE2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04FDB26-273B-464A-B119-69BF1D6EE2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04FDB26-273B-464A-B119-69BF1D6EE2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF35C70D-555E-43ED-8E19-9399833DDC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF35C70D-555E-43ED-8E19-9399833DDC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF35C70D-555E-43ED-8E19-9399833DDC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF35C70D-555E-43ED-8E19-9399833DDC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029B0BD3-05B8-48B1-BDAE-6EA6338D0976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029B0BD3-05B8-48B1-BDAE-6EA6338D0976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029B0BD3-05B8-48B1-BDAE-6EA6338D0976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029B0BD3-05B8-48B1-BDAE-6EA6338D0976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6574FB-177A-4006-ADC5-2D0B41A33B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6574FB-177A-4006-ADC5-2D0B41A33B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6574FB-177A-4006-ADC5-2D0B41A33B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6574FB-177A-4006-ADC5-2D0B41A33B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B12ABD-C468-4F9B-8A0F-4D533E70FA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B12ABD-C468-4F9B-8A0F-4D533E70FA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B12ABD-C468-4F9B-8A0F-4D533E70FA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B12ABD-C468-4F9B-8A0F-4D533E70FA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A711B9CC-427D-4137-A9A9-6AFE6364E024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A711B9CC-427D-4137-A9A9-6AFE6364E024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A711B9CC-427D-4137-A9A9-6AFE6364E024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A711B9CC-427D-4137-A9A9-6AFE6364E024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0698517-2199-43BB-8FB4-C2154C0F0AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0698517-2199-43BB-8FB4-C2154C0F0AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0698517-2199-43BB-8FB4-C2154C0F0AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0698517-2199-43BB-8FB4-C2154C0F0AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{334496B1-3696-40FD-BCA4-76CFFE78CDF2} = {9DD5DE1A-B743-406D-ACED-BD50F2726999}
+		{054C44FD-92DD-4EDD-82CB-7C8E15BE2D2F} = {9DD5DE1A-B743-406D-ACED-BD50F2726999}
+		{ADC488A4-7A61-4031-BF08-B2479D2CAADF} = {9DD5DE1A-B743-406D-ACED-BD50F2726999}
+		{8AD83C35-3AE3-49C0-BFE2-F67C19DBB29C} = {9DD5DE1A-B743-406D-ACED-BD50F2726999}
+		{E22AC614-54D5-4B13-83FA-AA3DA4D3A144} = {9DD5DE1A-B743-406D-ACED-BD50F2726999}
+		{33A7140B-1E82-4714-BB03-4FC9ABA54FB4} = {DA66037E-2C4C-4A5F-989B-05BF106428A4}
+		{1662C151-3924-47D6-9C5C-D8F8F748A64F} = {DA66037E-2C4C-4A5F-989B-05BF106428A4}
+		{F0E305CB-C19B-4493-9E66-444FEF06D7CA} = {DA66037E-2C4C-4A5F-989B-05BF106428A4}
+		{92C5EA7B-0332-4900-BF38-BA469D031568} = {DA66037E-2C4C-4A5F-989B-05BF106428A4}
+		{9E76EEDF-5722-4ED9-93F2-A45639CD2D37} = {DA66037E-2C4C-4A5F-989B-05BF106428A4}
+		{041F3F87-DDEF-4138-81F9-B6786668E55B} = {1662C151-3924-47D6-9C5C-D8F8F748A64F}
+		{12DFB06B-479E-4399-BE35-F2998EED259A} = {33A7140B-1E82-4714-BB03-4FC9ABA54FB4}
+		{E3599DC9-79DC-4C20-A26C-A8DF474A6825} = {33A7140B-1E82-4714-BB03-4FC9ABA54FB4}
+		{954D98F6-6F6A-4814-8FAC-E7DB1EDC7863} = {33A7140B-1E82-4714-BB03-4FC9ABA54FB4}
+		{A447B5A0-005E-43BC-A46C-E8E4B8AF28D7} = {1662C151-3924-47D6-9C5C-D8F8F748A64F}
+		{8DF86BAF-62B6-425D-98B1-82EA9F5AD123} = {1662C151-3924-47D6-9C5C-D8F8F748A64F}
+		{79399B44-1274-4644-B346-FBF8C5527B75} = {F0E305CB-C19B-4493-9E66-444FEF06D7CA}
+		{848AF3BC-DBEA-44EE-A065-B0555BEC6B36} = {F0E305CB-C19B-4493-9E66-444FEF06D7CA}
+		{13DB0A3E-0025-4D6E-8535-0B5E35D0AFEE} = {F0E305CB-C19B-4493-9E66-444FEF06D7CA}
+		{A50CDCA9-CDD0-4949-BFEC-CEAAD21B6727} = {1662C151-3924-47D6-9C5C-D8F8F748A64F}
+		{9FC11E5B-565C-4175-8547-E1E66C82B11F} = {1662C151-3924-47D6-9C5C-D8F8F748A64F}
+		{7233DA34-176D-4752-B30A-2941E7E9C1C2} = {F0E305CB-C19B-4493-9E66-444FEF06D7CA}
+		{3E605822-4254-4CCE-88E5-17CD19355874} = {F0E305CB-C19B-4493-9E66-444FEF06D7CA}
+		{4D5AA922-65BF-4D12-A341-BB5536AE7D0D} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{4C46FDB8-F75F-4E54-A3C0-8732FBA934CA} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{1868AB0C-2C73-4D8C-B80C-7DAEA922260B} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{32450D8F-CC9B-4C81-84F1-6FFF30F48AAD} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{F140AFD3-7185-4FB3-AA3B-974317390B88} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{FEAE5CF1-94B7-4C4A-BD54-807CD90D60BB} = {9E76EEDF-5722-4ED9-93F2-A45639CD2D37}
+		{E9DCC019-4401-4969-81AC-974A61E5A3B6} = {334496B1-3696-40FD-BCA4-76CFFE78CDF2}
+		{D04FDB26-273B-464A-B119-69BF1D6EE2B5} = {334496B1-3696-40FD-BCA4-76CFFE78CDF2}
+		{DF35C70D-555E-43ED-8E19-9399833DDC7F} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{029B0BD3-05B8-48B1-BDAE-6EA6338D0976} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{EB6574FB-177A-4006-ADC5-2D0B41A33B27} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{F8ABD622-C52A-4BE5-B59F-8F39F124BFB6} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{74B12ABD-C468-4F9B-8A0F-4D533E70FA18} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{0BF5D8AE-7BD5-4730-9198-BC6804E50CE4} = {ADC488A4-7A61-4031-BF08-B2479D2CAADF}
+		{A711B9CC-427D-4137-A9A9-6AFE6364E024} = {334496B1-3696-40FD-BCA4-76CFFE78CDF2}
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855} = {334496B1-3696-40FD-BCA4-76CFFE78CDF2}
+		{D0698517-2199-43BB-8FB4-C2154C0F0AC5} = {334496B1-3696-40FD-BCA4-76CFFE78CDF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE4C1FA2-227F-4404-BCC1-276AD87C120C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 31
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alejandrobustos.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj
+		SccProjectTopLevelParentUniqueName1 = RAK.sln
+		SccProjectName1 = Fwk/Common/RAK.Fwk.Common.AbstractEntity
+		SccLocalPath1 = Fwk\\Common\\RAK.Fwk.Common.AbstractEntity
+		SccProjectUniqueName2 = Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj
+		SccProjectTopLevelParentUniqueName2 = RAK.sln
+		SccProjectName2 = Fwk/Api/RAK.Fwk.Api.Adapter
+		SccLocalPath2 = Fwk\\Api\\RAK.Fwk.Api.Adapter
+		SccProjectUniqueName3 = Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj
+		SccProjectTopLevelParentUniqueName3 = RAK.sln
+		SccProjectName3 = Fwk/Api/RAK.Fwk.Api.Model
+		SccLocalPath3 = Fwk\\Api\\RAK.Fwk.Api.Model
+		SccProjectUniqueName4 = Fwk\\Api\\RAK.Fwk.Api.WebApi\\RAK.Fwk.Api.WebApi.csproj
+		SccProjectTopLevelParentUniqueName4 = RAK.sln
+		SccProjectName4 = Fwk/Api/RAK.Fwk.Api.WebApi
+		SccLocalPath4 = Fwk\\Api\\RAK.Fwk.Api.WebApi
+		SccProjectUniqueName5 = Fwk\\Common\\RAK.Fwk.Common.Cross\\RAK.Fwk.Common.Cross.csproj
+		SccProjectTopLevelParentUniqueName5 = RAK.sln
+		SccProjectName5 = Fwk/Common/RAK.Fwk.Common.Cross
+		SccLocalPath5 = Fwk\\Common\\RAK.Fwk.Common.Cross
+		SccProjectUniqueName6 = Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj
+		SccProjectTopLevelParentUniqueName6 = RAK.sln
+		SccProjectName6 = Fwk/Common/RAK.Fwk.Common.DependencyInjection
+		SccLocalPath6 = Fwk\\Common\\RAK.Fwk.Common.DependencyInjection
+		SccProjectUniqueName7 = Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName7 = RAK.sln
+		SccProjectName7 = Fwk/Service/RAK.Fwk.Service.Entity
+		SccLocalPath7 = Fwk\\Service\\RAK.Fwk.Service.Entity
+		SccProjectUniqueName8 = Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj
+		SccProjectTopLevelParentUniqueName8 = RAK.sln
+		SccProjectName8 = Fwk/Service/RAK.Fwk.Service.Logic
+		SccLocalPath8 = Fwk\\Service\\RAK.Fwk.Service.Logic
+		SccProjectUniqueName9 = Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName9 = RAK.sln
+		SccProjectName9 = Fwk/Service/RAK.Fwk.Service.Logic.Abstraction
+		SccLocalPath9 = Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction
+		SccProjectUniqueName10 = Fwk\\Common\\RAK.Fwk.Common.Log\\RAK.Fwk.Common.Log.csproj
+		SccProjectTopLevelParentUniqueName10 = RAK.sln
+		SccProjectName10 = Fwk/Common/RAK.Fwk.Common.Log
+		SccLocalPath10 = Fwk\\Common\\RAK.Fwk.Common.Log
+		SccProjectUniqueName11 = Fwk\\Common\\RAK.Fwk.Common.Mapper\\RAK.Fwk.Common.Mapper.csproj
+		SccProjectTopLevelParentUniqueName11 = RAK.sln
+		SccProjectName11 = Fwk/Common/RAK.Fwk.Common.Mapper
+		SccLocalPath11 = Fwk\\Common\\RAK.Fwk.Common.Mapper
+		SccProjectUniqueName12 = Fwk\\Service\\RAK.Fwk.Service.Repository\\RAK.Fwk.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName12 = RAK.sln
+		SccProjectName12 = Fwk/Service/RAK.Fwk.Service.Repository
+		SccLocalPath12 = Fwk\\Service\\RAK.Fwk.Service.Repository
+		SccProjectUniqueName13 = Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName13 = RAK.sln
+		SccProjectName13 = Fwk/Service/RAK.Fwk.Service.Repository.Abstraction
+		SccLocalPath13 = Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction
+		SccProjectUniqueName14 = Fwk\\UI\\RAK.Fwk.UI.Cross\\RAK.Fwk.UI.Cross.csproj
+		SccProjectTopLevelParentUniqueName14 = RAK.sln
+		SccProjectName14 = Fwk/UI/RAK.Fwk.UI.Cross
+		SccLocalPath14 = Fwk\\UI\\RAK.Fwk.UI.Cross
+		SccProjectUniqueName15 = Fwk\\UI\\RAK.Fwk.UI.Desk.Console\\RAK.Fwk.UI.Desk.Console.csproj
+		SccProjectTopLevelParentUniqueName15 = RAK.sln
+		SccProjectName15 = Fwk/UI/RAK.Fwk.UI.Desk.Console
+		SccLocalPath15 = Fwk\\UI\\RAK.Fwk.UI.Desk.Console
+		SccProjectUniqueName16 = Fwk\\UI\\RAK.Fwk.UI.Desk.Cross\\RAK.Fwk.UI.Desk.Cross.csproj
+		SccProjectTopLevelParentUniqueName16 = RAK.sln
+		SccProjectName16 = Fwk/UI/RAK.Fwk.UI.Desk.Cross
+		SccLocalPath16 = Fwk\\UI\\RAK.Fwk.UI.Desk.Cross
+		SccProjectUniqueName17 = Fwk\\UI\\RAK.Fwk.UI.Desk.WinForm\\RAK.Fwk.UI.Desk.WinForm.csproj
+		SccProjectTopLevelParentUniqueName17 = RAK.sln
+		SccProjectName17 = Fwk/UI/RAK.Fwk.UI.Desk.WinForm
+		SccLocalPath17 = Fwk\\UI\\RAK.Fwk.UI.Desk.WinForm
+		SccProjectUniqueName18 = Fwk\\UI\\RAK.Fwk.UI.Web.Cross\\RAK.Fwk.UI.Web.Cross.csproj
+		SccProjectTopLevelParentUniqueName18 = RAK.sln
+		SccProjectName18 = Fwk/UI/RAK.Fwk.UI.Web.Cross
+		SccLocalPath18 = Fwk\\UI\\RAK.Fwk.UI.Web.Cross
+		SccProjectUniqueName19 = Fwk\\UI\\RAK.Fwk.UI.Web.Mvc\\RAK.Fwk.UI.Web.Mvc.csproj
+		SccProjectTopLevelParentUniqueName19 = RAK.sln
+		SccProjectName19 = Fwk/UI/RAK.Fwk.UI.Web.Mvc
+		SccLocalPath19 = Fwk\\UI\\RAK.Fwk.UI.Web.Mvc
+		SccProjectUniqueName20 = Core\\Api\\RAK.Core.Api.Adapter\\RAK.Core.Api.Adapter.csproj
+		SccProjectTopLevelParentUniqueName20 = RAK.sln
+		SccProjectName20 = Core/Api/RAK.Core.Api.Adapter
+		SccLocalPath20 = Core\\Api\\RAK.Core.Api.Adapter
+		SccProjectUniqueName21 = Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName21 = RAK.sln
+		SccProjectName21 = Core/Api/RAK.Core.Api.Adapter.Abstraction
+		SccLocalPath21 = Core\\Api\\RAK.Core.Api.Adapter.Abstraction
+		SccProjectUniqueName22 = Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName22 = RAK.sln
+		SccProjectName22 = Core/Service/RAK.Core.Service.Entity
+		SccLocalPath22 = Core\\Service\\RAK.Core.Service.Entity
+		SccProjectUniqueName23 = Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj
+		SccProjectTopLevelParentUniqueName23 = RAK.sln
+		SccProjectName23 = Core/Service/RAK.Core.Service.Logic
+		SccLocalPath23 = Core\\Service\\RAK.Core.Service.Logic
+		SccProjectUniqueName24 = Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName24 = RAK.sln
+		SccProjectName24 = Core/Service/RAK.Core.Service.Logic.Abstraction
+		SccLocalPath24 = Core\\Service\\RAK.Core.Service.Logic.Abstraction
+		SccProjectUniqueName25 = Core\\Service\\RAK.Core.Service.Repository\\RAK.Core.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName25 = RAK.sln
+		SccProjectName25 = Core/Service/RAK.Core.Service.Repository
+		SccLocalPath25 = Core\\Service\\RAK.Core.Service.Repository
+		SccProjectUniqueName26 = Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName26 = RAK.sln
+		SccProjectName26 = Core/Service/RAK.Core.Service.Repository.Abstraction
+		SccLocalPath26 = Core\\Service\\RAK.Core.Service.Repository.Abstraction
+		SccProjectUniqueName27 = Core\\Service\\RAK.Core.Service.Repository.Database\\RAK.Core.Service.Repository.Database.csproj
+		SccProjectTopLevelParentUniqueName27 = RAK.sln
+		SccProjectName27 = Core/Service/RAK.Core.Service.Repository.Database
+		SccLocalPath27 = Core\\Service\\RAK.Core.Service.Repository.Database
+		SccProjectUniqueName28 = Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj
+		SccProjectTopLevelParentUniqueName28 = RAK.sln
+		SccProjectName28 = Core/Api/RAK.Core.Api.Model
+		SccLocalPath28 = Core\\Api\\RAK.Core.Api.Model
+		SccProjectUniqueName29 = Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj
+		SccProjectTopLevelParentUniqueName29 = RAK.sln
+		SccProjectName29 = Core/Api/RAK.Core.Api.WebApi
+		SccLocalPath29 = Core\\Api\\RAK.Core.Api.WebApi
+		SccProjectUniqueName30 = Core\\Api\\RAK.Core.Api.DIRegistration\\RAK.Core.Api.DIRegistration.csproj
+		SccProjectTopLevelParentUniqueName30 = RAK.sln
+		SccProjectName30 = Core/Api/RAK.Core.Api.DIRegistration
+		SccLocalPath30 = Core\\Api\\RAK.Core.Api.DIRegistration
+	EndGlobalSection
+EndGlobal

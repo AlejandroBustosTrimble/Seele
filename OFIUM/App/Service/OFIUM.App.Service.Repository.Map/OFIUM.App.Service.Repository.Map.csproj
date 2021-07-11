@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\RAK\Core\Service\RAK.Core.Service.Entity\RAK.Core.Service.Entity.csproj" />
+    <ProjectReference Include="..\..\..\..\RAK\Fwk\Service\RAK.Fwk.Service.Entity\RAK.Fwk.Service.Entity.csproj" />
+    <ProjectReference Include="..\OFIUM.App.Service.Entity\OFIUM.App.Service.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

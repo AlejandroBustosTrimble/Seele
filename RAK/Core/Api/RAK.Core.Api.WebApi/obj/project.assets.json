@@ -1,0 +1,991 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/4.9.0": {
+      "sha512": "HoBqjxe/Kt6ckXfh4ERkZmSSbFHKu+lqdz28++AVoMqu6yew5xmcJp73bZBs3AINgTtBZe6isoZeI67HufauRw==",
+      "type": "package",
+      "path": "autofac/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.0.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "Microsoft.AspNet.Cors/5.2.7": {
+      "sha512": "r7qTj8SKzHT32F2mbB3qgE+6VUd2xILkGaq4LtMW+KP3dDAQmI//j+8Ku01I3D1GKZvB9PU8HTJPkaw7sxSLtQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.cors/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Cors.dll",
+        "microsoft.aspnet.cors.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.cors.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+      "sha512": "LUY5ufoiYLHKZXdrrNe7GlAwmu9WlyrX5iUtBSLwFZ31/tvPobyU7j1E31OWVdGZMBvRCxKbfyB7unxgrjTRpA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.cors/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.Cors.dll",
+        "lib/net45/System.Web.Http.Cors.xml",
+        "microsoft.aspnet.webapi.cors.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.cors.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "sha512": "wrf5LBX1omJ/8HiYKby22uBV7MPCfwxXWY39w28VZJjYdN1Cb3eiTkkWk5gAkkdW+N/A0hgSmqtiPoAwsb07qg==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../RAK.Core.Api.Adapter.Abstraction/RAK.Core.Api.Adapter.Abstraction.csproj",
+      "msbuildProject": "../RAK.Core.Api.Adapter.Abstraction/RAK.Core.Api.Adapter.Abstraction.csproj"
+    },
+    "RAK.Core.Api.Model/1.0.0": {
+      "type": "project",
+      "path": "../RAK.Core.Api.Model/RAK.Core.Api.Model.csproj",
+      "msbuildProject": "../RAK.Core.Api.Model/RAK.Core.Api.Model.csproj"
+    },
+    "RAK.Fwk.Api.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Api/RAK.Fwk.Api.Adapter/RAK.Fwk.Api.Adapter.csproj",
+      "msbuildProject": "../../../Fwk/Api/RAK.Fwk.Api.Adapter/RAK.Fwk.Api.Adapter.csproj"
+    },
+    "RAK.Fwk.Api.Model/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Api/RAK.Fwk.Api.Model/RAK.Fwk.Api.Model.csproj",
+      "msbuildProject": "../../../Fwk/Api/RAK.Fwk.Api.Model/RAK.Fwk.Api.Model.csproj"
+    },
+    "RAK.Fwk.Api.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Api/RAK.Fwk.Api.WebApi/RAK.Fwk.Api.WebApi.csproj",
+      "msbuildProject": "../../../Fwk/Api/RAK.Fwk.Api.WebApi/RAK.Fwk.Api.WebApi.csproj"
+    },
+    "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Common/RAK.Fwk.Common.AbstractEntity/RAK.Fwk.Common.AbstractEntity.csproj",
+      "msbuildProject": "../../../Fwk/Common/RAK.Fwk.Common.AbstractEntity/RAK.Fwk.Common.AbstractEntity.csproj"
+    },
+    "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Common/RAK.Fwk.Common.DependencyInjection/RAK.Fwk.Common.DependencyInjection.csproj",
+      "msbuildProject": "../../../Fwk/Common/RAK.Fwk.Common.DependencyInjection/RAK.Fwk.Common.DependencyInjection.csproj"
+    },
+    "RAK.Fwk.Common.Log/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Common/RAK.Fwk.Common.Log/RAK.Fwk.Common.Log.csproj",
+      "msbuildProject": "../../../Fwk/Common/RAK.Fwk.Common.Log/RAK.Fwk.Common.Log.csproj"
+    },
+    "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../Fwk/Service/RAK.Fwk.Service.Logic.Abstraction/RAK.Fwk.Service.Logic.Abstraction.csproj",
+      "msbuildProject": "../../../Fwk/Service/RAK.Fwk.Service.Logic.Abstraction/RAK.Fwk.Service.Logic.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Microsoft.AspNet.WebApi.Core >= 5.2.7",
+      "Microsoft.AspNet.WebApi.Cors >= 5.2.7",
+      "Newtonsoft.Json >= 11.0.1",
+      "RAK.Core.Api.Adapter.Abstraction >= 1.0.0",
+      "RAK.Core.Api.Model >= 1.0.0",
+      "RAK.Fwk.Api.Adapter >= 1.0.0",
+      "RAK.Fwk.Api.Model >= 1.0.0",
+      "RAK.Fwk.Api.WebApi >= 1.0.0",
+      "RAK.Fwk.Common.AbstractEntity >= 1.0.0",
+      "RAK.Fwk.Common.DependencyInjection >= 1.0.0",
+      "RAK.Fwk.Common.Log >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rakna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj",
+      "projectName": "RAK.Core.Api.WebApi",
+      "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj",
+      "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+      "outputPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.WebApi\\RAK.Fwk.Api.WebApi.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.WebApi\\RAK.Fwk.Api.WebApi.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Log\\RAK.Fwk.Common.Log.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Log\\RAK.Fwk.Common.Log.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": {
+            "target": "Package",
+            "version": "[5.2.7, )"
+          },
+          "Microsoft.AspNet.WebApi.Cors": {
+            "target": "Package",
+            "version": "[5.2.7, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

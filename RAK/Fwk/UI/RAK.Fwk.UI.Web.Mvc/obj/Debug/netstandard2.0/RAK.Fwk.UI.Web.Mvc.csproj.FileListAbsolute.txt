@@ -1,0 +1,8 @@
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\bin\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.deps.json
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\bin\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.dll
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\bin\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.pdb
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\obj\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\obj\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\obj\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\obj\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.dll
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Web.Mvc\obj\Debug\netstandard2.0\RAK.Fwk.UI.Web.Mvc.pdb

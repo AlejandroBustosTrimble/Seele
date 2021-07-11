@@ -1,0 +1,4158 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Antlr3.Runtime/3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        }
+      },
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "FluentNHibernate/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NHibernate": "5.1.1"
+        },
+        "compile": {
+          "lib/net461/FluentNHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/FluentNHibernate.dll": {}
+        }
+      },
+      "Iesi.Collections/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Iesi.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Iesi.Collections.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NHibernate/5.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Antlr3.Runtime": "[3.5.1, 4.0.0)",
+          "Iesi.Collections": "[4.0.4, 5.0.0)",
+          "Remotion.Linq": "[2.2.0, 3.0.0)",
+          "Remotion.Linq.EagerFetching": "[2.2.0, 3.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.ServiceModel",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net461/NHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NHibernate.dll": {}
+        }
+      },
+      "Npgsql/4.0.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "Remotion.Linq/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Remotion.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.dll": {}
+        }
+      },
+      "Remotion.Linq.EagerFetching/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Remotion.Linq": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter.Abstraction": "1.0.0",
+          "OFIUM.App.Api.Model": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Model": "1.0.0",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter": "1.0.0",
+          "OFIUM.App.Service.Logic": "1.0.0",
+          "OFIUM.App.Service.Repository": "1.0.0",
+          "OFIUM.App.Service.Repository.Database": "1.0.0",
+          "RAK.Core.Api.DIRegistration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        }
+      },
+      "OFIUM.App.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Map": "1.0.0",
+          "RAK.Core.Service.Repository.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Common.Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Core.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.7",
+          "Microsoft.AspNet.WebApi.Cors": "5.2.7",
+          "Newtonsoft.Json": "11.0.1",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.WebApi": "1.0.0",
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "NHibernate": "5.2.5",
+          "Npgsql": "4.0.7",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Cross/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.Cross": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Antlr3.Runtime/3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        }
+      },
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "FluentNHibernate/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NHibernate": "5.1.1"
+        },
+        "compile": {
+          "lib/net461/FluentNHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/FluentNHibernate.dll": {}
+        }
+      },
+      "Iesi.Collections/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Iesi.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Iesi.Collections.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NHibernate/5.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Antlr3.Runtime": "[3.5.1, 4.0.0)",
+          "Iesi.Collections": "[4.0.4, 5.0.0)",
+          "Remotion.Linq": "[2.2.0, 3.0.0)",
+          "Remotion.Linq.EagerFetching": "[2.2.0, 3.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.ServiceModel",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net461/NHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NHibernate.dll": {}
+        }
+      },
+      "Npgsql/4.0.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "Remotion.Linq/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Remotion.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.dll": {}
+        }
+      },
+      "Remotion.Linq.EagerFetching/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Remotion.Linq": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter.Abstraction": "1.0.0",
+          "OFIUM.App.Api.Model": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Model": "1.0.0",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter": "1.0.0",
+          "OFIUM.App.Service.Logic": "1.0.0",
+          "OFIUM.App.Service.Repository": "1.0.0",
+          "OFIUM.App.Service.Repository.Database": "1.0.0",
+          "RAK.Core.Api.DIRegistration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        }
+      },
+      "OFIUM.App.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Map": "1.0.0",
+          "RAK.Core.Service.Repository.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Common.Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Core.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.7",
+          "Microsoft.AspNet.WebApi.Cors": "5.2.7",
+          "Newtonsoft.Json": "11.0.1",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.WebApi": "1.0.0",
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "NHibernate": "5.2.5",
+          "Npgsql": "4.0.7",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Cross/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.Cross": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Antlr3.Runtime/3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        }
+      },
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "FluentNHibernate/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NHibernate": "5.1.1"
+        },
+        "compile": {
+          "lib/net461/FluentNHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/FluentNHibernate.dll": {}
+        }
+      },
+      "Iesi.Collections/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Iesi.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Iesi.Collections.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NHibernate/5.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Antlr3.Runtime": "[3.5.1, 4.0.0)",
+          "Iesi.Collections": "[4.0.4, 5.0.0)",
+          "Remotion.Linq": "[2.2.0, 3.0.0)",
+          "Remotion.Linq.EagerFetching": "[2.2.0, 3.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.ServiceModel",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net461/NHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NHibernate.dll": {}
+        }
+      },
+      "Npgsql/4.0.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "Remotion.Linq/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Remotion.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.dll": {}
+        }
+      },
+      "Remotion.Linq.EagerFetching/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Remotion.Linq": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter.Abstraction": "1.0.0",
+          "OFIUM.App.Api.Model": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Model": "1.0.0",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter": "1.0.0",
+          "OFIUM.App.Service.Logic": "1.0.0",
+          "OFIUM.App.Service.Repository": "1.0.0",
+          "OFIUM.App.Service.Repository.Database": "1.0.0",
+          "RAK.Core.Api.DIRegistration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        }
+      },
+      "OFIUM.App.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Map": "1.0.0",
+          "RAK.Core.Service.Repository.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Common.Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Core.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.7",
+          "Microsoft.AspNet.WebApi.Cors": "5.2.7",
+          "Newtonsoft.Json": "11.0.1",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.WebApi": "1.0.0",
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "NHibernate": "5.2.5",
+          "Npgsql": "4.0.7",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Cross/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.Cross": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Antlr3.Runtime/3.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Antlr3.Runtime.dll": {}
+        }
+      },
+      "Autofac/4.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Autofac.dll": {}
+        }
+      },
+      "FluentNHibernate/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NHibernate": "5.1.1"
+        },
+        "compile": {
+          "lib/net461/FluentNHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/FluentNHibernate.dll": {}
+        }
+      },
+      "Iesi.Collections/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Iesi.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Iesi.Collections.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.7",
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NHibernate/5.2.5": {
+        "type": "package",
+        "dependencies": {
+          "Antlr3.Runtime": "[3.5.1, 4.0.0)",
+          "Iesi.Collections": "[4.0.4, 5.0.0)",
+          "Remotion.Linq": "[2.2.0, 3.0.0)",
+          "Remotion.Linq.EagerFetching": "[2.2.0, 3.0.0)"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Configuration",
+          "System.ServiceModel",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net461/NHibernate.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NHibernate.dll": {}
+        }
+      },
+      "Npgsql/4.0.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net451/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Npgsql.dll": {}
+        }
+      },
+      "Remotion.Linq/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Remotion.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.dll": {}
+        }
+      },
+      "Remotion.Linq.EagerFetching/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Remotion.Linq": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Remotion.Linq.EagerFetching.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Permissions": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Configuration",
+          "System.Drawing",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.OracleClient",
+          "System.Drawing",
+          "System.Net",
+          "System.ServiceProcess",
+          "System.Transactions",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Permissions.dll": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter.Abstraction": "1.0.0",
+          "OFIUM.App.Api.Model": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Model": "1.0.0",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Api.Adapter": "1.0.0",
+          "OFIUM.App.Service.Logic": "1.0.0",
+          "OFIUM.App.Service.Repository": "1.0.0",
+          "OFIUM.App.Service.Repository.Database": "1.0.0",
+          "RAK.Core.Api.DIRegistration": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.DIRegistration.dll": {}
+        }
+      },
+      "OFIUM.App.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Api.Model.dll": {}
+        }
+      },
+      "OFIUM.App.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Common.AbstractEntity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Entity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Logic.Abstraction": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Logic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "OFIUM.App.Service.Repository.Map": "1.0.0",
+          "RAK.Core.Service.Repository.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Database.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Repository.Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OFIUM.App.Service.Repository.Map.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Common.Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Adapter.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Api.DIRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.DIRegistration.dll": {}
+        }
+      },
+      "RAK.Core.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.Model.dll": {}
+        }
+      },
+      "RAK.Core.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.7",
+          "Microsoft.AspNet.WebApi.Cors": "5.2.7",
+          "Newtonsoft.Json": "11.0.1",
+          "RAK.Core.Api.Adapter.Abstraction": "1.0.0",
+          "RAK.Core.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.Adapter": "1.0.0",
+          "RAK.Fwk.Api.Model": "1.0.0",
+          "RAK.Fwk.Api.WebApi": "1.0.0",
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Common.Log": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Core.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentNHibernate": "2.1.2",
+          "NHibernate": "5.2.5",
+          "Npgsql": "4.0.7",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Core.Service.Repository.Database.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Adapter.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.Model.dll": {}
+        }
+      },
+      "RAK.Fwk.Api.WebApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Api.Adapter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Api.WebApi.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Cross/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Cross.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Autofac": "4.9.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.DependencyInjection.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Log/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Log.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.Cross": "1.0.0",
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Common.Mapper.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Logic.Abstraction": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Logic.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Common.DependencyInjection": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antlr3.Runtime/3.5.1": {
+      "sha512": "ZwCEpLCLZXkjzf1lYEixp9hgVlYYk33ACHn6xjFyVhGRi2BpoYQez0qtatbetdylASWYTG+cGz0CGR4z66JM4w==",
+      "type": "package",
+      "path": "antlr3.runtime/3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Antlr3.Runtime.3.5.1.nupkg.sha512",
+        "Antlr3.Runtime.nuspec",
+        "lib/net20/Antlr3.Runtime.dll",
+        "lib/net20/Antlr3.Runtime.xml",
+        "lib/net40-client/Antlr3.Runtime.dll",
+        "lib/net40-client/Antlr3.Runtime.xml",
+        "lib/netstandard1.1/Antlr3.Runtime.dll",
+        "lib/netstandard1.1/Antlr3.Runtime.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr3.Runtime.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr3.Runtime.xml"
+      ]
+    },
+    "Autofac/4.9.0": {
+      "sha512": "HoBqjxe/Kt6ckXfh4ERkZmSSbFHKu+lqdz28++AVoMqu6yew5xmcJp73bZBs3AINgTtBZe6isoZeI67HufauRw==",
+      "type": "package",
+      "path": "autofac/4.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.0.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "FluentNHibernate/2.1.2": {
+      "sha512": "JcSxfsgciJQJDEWGYp1tur4XIEBRYpWquDihFZZhFP0yF1UuXwvC/UxNGawQArw6PpLAaVDJdLZPH1Ot8+8DHQ==",
+      "type": "package",
+      "path": "fluentnhibernate/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentNHibernate.2.1.2.nupkg.sha512",
+        "FluentNHibernate.nuspec",
+        "lib/net461/FluentNHibernate.dll",
+        "lib/net461/FluentNHibernate.xml",
+        "lib/netcoreapp2.0/FluentNHibernate.dll",
+        "lib/netcoreapp2.0/FluentNHibernate.xml",
+        "lib/netstandard2.0/FluentNHibernate.dll",
+        "lib/netstandard2.0/FluentNHibernate.xml"
+      ]
+    },
+    "Iesi.Collections/4.0.4": {
+      "sha512": "jlebSjv2a7amYfKXEUsPDSf2Yi9r0/FkvvT6Dy7ehl7z8du+dTGqKDu+fYbnE+WuIz/v3prYm1jpBljMrY1p+Q==",
+      "type": "package",
+      "path": "iesi.collections/4.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "Iesi.Collections.4.0.4.nupkg.sha512",
+        "Iesi.Collections.nuspec",
+        "lib/net40/Iesi.Collections.dll",
+        "lib/net40/Iesi.Collections.xml",
+        "lib/net461/Iesi.Collections.dll",
+        "lib/net461/Iesi.Collections.xml",
+        "lib/netstandard1.0/Iesi.Collections.dll",
+        "lib/netstandard1.0/Iesi.Collections.xml",
+        "lib/netstandard1.3/Iesi.Collections.dll",
+        "lib/netstandard1.3/Iesi.Collections.xml"
+      ]
+    },
+    "Microsoft.AspNet.Cors/5.2.7": {
+      "sha512": "r7qTj8SKzHT32F2mbB3qgE+6VUd2xILkGaq4LtMW+KP3dDAQmI//j+8Ku01I3D1GKZvB9PU8HTJPkaw7sxSLtQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.cors/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Cors.dll",
+        "microsoft.aspnet.cors.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.cors.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Cors/5.2.7": {
+      "sha512": "LUY5ufoiYLHKZXdrrNe7GlAwmu9WlyrX5iUtBSLwFZ31/tvPobyU7j1E31OWVdGZMBvRCxKbfyB7unxgrjTRpA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.cors/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Web.Http.Cors.dll",
+        "lib/net45/System.Web.Http.Cors.xml",
+        "microsoft.aspnet.webapi.cors.5.2.7.nupkg.sha512",
+        "microsoft.aspnet.webapi.cors.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "sha512": "wrf5LBX1omJ/8HiYKby22uBV7MPCfwxXWY39w28VZJjYdN1Cb3eiTkkWk5gAkkdW+N/A0hgSmqtiPoAwsb07qg==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "NHibernate/5.2.5": {
+      "sha512": "3R9Nf/nI5WYFL9520Xu66wqU8YbnRZGVDA/xvE5wMgqCtIX9df6NOFEfhkEhZIb11UeeU45gqGlkebiqNP8DMw==",
+      "type": "package",
+      "path": "nhibernate/5.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ConfigurationTemplates/FireBird.cfg.xml",
+        "ConfigurationTemplates/HANA.cfg.xml",
+        "ConfigurationTemplates/MSSQL.cfg.xml",
+        "ConfigurationTemplates/MySql.cfg.xml",
+        "ConfigurationTemplates/Oracle-Managed.cfg.xml",
+        "ConfigurationTemplates/Oracle.cfg.xml",
+        "ConfigurationTemplates/PostgreSQL.cfg.xml",
+        "ConfigurationTemplates/SQLite.cfg.xml",
+        "ConfigurationTemplates/SapSQLAnywhere.cfg.xml",
+        "ConfigurationTemplates/SqlServerCe.cfg.xml",
+        "ConfigurationTemplates/SybaseASE.cfg.xml",
+        "ConfigurationTemplates/SybaseSQLAnywhere.cfg.xml",
+        "NHibernate.license.txt",
+        "NHibernate.readme.md",
+        "NHibernate.releasenotes.txt",
+        "lib/net461/NHibernate.dll",
+        "lib/net461/NHibernate.xml",
+        "lib/netcoreapp2.0/NHibernate.dll",
+        "lib/netcoreapp2.0/NHibernate.xml",
+        "lib/netstandard2.0/NHibernate.dll",
+        "lib/netstandard2.0/NHibernate.xml",
+        "nhibernate-configuration.xsd",
+        "nhibernate-mapping.xsd",
+        "nhibernate.5.2.5.nupkg.sha512",
+        "nhibernate.nuspec"
+      ]
+    },
+    "Npgsql/4.0.7": {
+      "sha512": "wSZOdLAWMhlncV4o43PX1b9uuE++xrSaPFgyap8vzhZFANYV0wlcSI8UqqZqTPdocF17hbS5eOAo2PQVaHZLuQ==",
+      "type": "package",
+      "path": "npgsql/4.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Npgsql.dll",
+        "lib/net45/Npgsql.pdb",
+        "lib/net45/Npgsql.xml",
+        "lib/net451/Npgsql.dll",
+        "lib/net451/Npgsql.pdb",
+        "lib/net451/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.pdb",
+        "lib/netstandard2.0/Npgsql.xml",
+        "npgsql.4.0.7.nupkg.sha512",
+        "npgsql.nuspec"
+      ]
+    },
+    "Remotion.Linq/2.2.0": {
+      "sha512": "twDAH8dAXXCAf3sRv1Tf94u66eEHvgU75hfn1nn2v4fSWXD50XoDOAk8WpSrbViNuMkB4kN1ElnOGm1c519IHg==",
+      "type": "package",
+      "path": "remotion.linq/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Remotion.Linq.XML",
+        "lib/net35/Remotion.Linq.dll",
+        "lib/net40/Remotion.Linq.XML",
+        "lib/net40/Remotion.Linq.dll",
+        "lib/net45/Remotion.Linq.XML",
+        "lib/net45/Remotion.Linq.dll",
+        "lib/netstandard1.0/Remotion.Linq.dll",
+        "lib/netstandard1.0/Remotion.Linq.xml",
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll",
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
+        "remotion.linq.2.2.0.nupkg.sha512",
+        "remotion.linq.nuspec"
+      ]
+    },
+    "Remotion.Linq.EagerFetching/2.2.0": {
+      "sha512": "gDL86d4V84XC7e4ab0goGhLL1UfN11VkRdtHcHFU5LNmBteuCyl/auBuHF8MDftpZJaQY8gzy30oyJ/jc8+WsA==",
+      "type": "package",
+      "path": "remotion.linq.eagerfetching/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Remotion.Linq.EagerFetching.XML",
+        "lib/net35/Remotion.Linq.EagerFetching.dll",
+        "lib/net40/Remotion.Linq.EagerFetching.XML",
+        "lib/net40/Remotion.Linq.EagerFetching.dll",
+        "lib/net45/Remotion.Linq.EagerFetching.XML",
+        "lib/net45/Remotion.Linq.EagerFetching.dll",
+        "lib/netstandard1.0/Remotion.Linq.EagerFetching.dll",
+        "lib/netstandard1.0/Remotion.Linq.EagerFetching.xml",
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.EagerFetching.dll",
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.EagerFetching.xml",
+        "remotion.linq.eagerfetching.2.2.0.nupkg.sha512",
+        "remotion.linq.eagerfetching.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "sha512": "+2SYYKwbN0n+9SrBanflZdaVleFkytEfTNzOu+f3SK0vROMMrorpw1UJyHJQ1ZooughRxPmLj8Fh5N2tSe7sdA==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "cPzhWlLMdqrLrgXI6J4uOY0dMpA/Y/ZAp91KPldH8seoh9S/0i8qLkAnSQbPkWSN/RaXNPt8dOubT3JhQITh2w==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "gdRrUJs1RrjW3JB5p82hYjA67xoeFLvh0SdSIWjTiN8qExlbFt/RtXwVYNc5BukJ/f9OKzQQS6gakzbJeHTqHg==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "hMkdWxksypQlFXB7JamQegDscxEAQO4FHd/lw/zlSZU9dZgAij65xjCrXer183wvoNAzJic5zzjj2oc9/dloWg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "6RQtcT+TyDgLUFsAnmmdfRRGdLYKxSZGkSPOd052tvYFxOTMaQb6ANlwhGqZtNO52PosaCoXu7uatFneujAxmA==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Permissions/4.5.0": {
+      "sha512": "O+e9qamSTJ4YOJCpnLgsf9FTGfsxJv2On1OdYkhmd/XA5AYRvUatkz7Rp3dS9XR7rhVuklnjST1dRoMK7N4cGw==",
+      "type": "package",
+      "path": "system.security.permissions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.5.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "hs2zF4tOQ3V4iQttVnLrnR/i8AOrrAgu2Gmp4/jNaE/+5hiZWDj20FK/m/OW3Itdi9XDvqf55WzHkiWYtOSUNg==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "5HCu8V3QB+gouMZmGrA666weZ0UQRt+OTD16rSE3Hyhu4Qhlvxkf4nTPI0GLy52s0rxgi7C8t2ayFAzw7UK1og==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "System.ValueTuple.4.5.0.nupkg.sha512",
+        "System.ValueTuple.nuspec",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "OFIUM.App.Api.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../OFIUM.App.Api.Adapter/OFIUM.App.Api.Adapter.csproj",
+      "msbuildProject": "../OFIUM.App.Api.Adapter/OFIUM.App.Api.Adapter.csproj"
+    },
+    "OFIUM.App.Api.Adapter.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../OFIUM.App.Api.Adapter.Abstraction/OFIUM.App.Api.Adapter.Abstraction.csproj",
+      "msbuildProject": "../OFIUM.App.Api.Adapter.Abstraction/OFIUM.App.Api.Adapter.Abstraction.csproj"
+    },
+    "OFIUM.App.Api.DIRegistration/1.0.0": {
+      "type": "project",
+      "path": "../OFIUM.App.Api.DIRegistration/OFIUM.App.Api.DIRegistration.csproj",
+      "msbuildProject": "../OFIUM.App.Api.DIRegistration/OFIUM.App.Api.DIRegistration.csproj"
+    },
+    "OFIUM.App.Api.Model/1.0.0": {
+      "type": "project",
+      "path": "../OFIUM.App.Api.Model/OFIUM.App.Api.Model.csproj",
+      "msbuildProject": "../OFIUM.App.Api.Model/OFIUM.App.Api.Model.csproj"
+    },
+    "OFIUM.App.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "path": "../../Common/OFIUM.App.Common.AbstractEntity/OFIUM.App.Common.AbstractEntity.csproj",
+      "msbuildProject": "../../Common/OFIUM.App.Common.AbstractEntity/OFIUM.App.Common.AbstractEntity.csproj"
+    },
+    "OFIUM.App.Service.Entity/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Entity/OFIUM.App.Service.Entity.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Entity/OFIUM.App.Service.Entity.csproj"
+    },
+    "OFIUM.App.Service.Logic/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Logic/OFIUM.App.Service.Logic.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Logic/OFIUM.App.Service.Logic.csproj"
+    },
+    "OFIUM.App.Service.Logic.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Logic.Abstraction/OFIUM.App.Service.Logic.Abstraction.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Logic.Abstraction/OFIUM.App.Service.Logic.Abstraction.csproj"
+    },
+    "OFIUM.App.Service.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Repository/OFIUM.App.Service.Repository.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Repository/OFIUM.App.Service.Repository.csproj"
+    },
+    "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Repository.Abstraction/OFIUM.App.Service.Repository.Abstraction.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Repository.Abstraction/OFIUM.App.Service.Repository.Abstraction.csproj"
+    },
+    "OFIUM.App.Service.Repository.Database/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Repository.Database/OFIUM.App.Service.Repository.Database.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Repository.Database/OFIUM.App.Service.Repository.Database.csproj"
+    },
+    "OFIUM.App.Service.Repository.Map/1.0.0": {
+      "type": "project",
+      "path": "../../Service/OFIUM.App.Service.Repository.Map/OFIUM.App.Service.Repository.Map.csproj",
+      "msbuildProject": "../../Service/OFIUM.App.Service.Repository.Map/OFIUM.App.Service.Repository.Map.csproj"
+    },
+    "RAK.Core.Api.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Api/RAK.Core.Api.Adapter/RAK.Core.Api.Adapter.csproj",
+      "msbuildProject": "../../../../RAK/Core/Api/RAK.Core.Api.Adapter/RAK.Core.Api.Adapter.csproj"
+    },
+    "RAK.Core.Api.Adapter.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Api/RAK.Core.Api.Adapter.Abstraction/RAK.Core.Api.Adapter.Abstraction.csproj",
+      "msbuildProject": "../../../../RAK/Core/Api/RAK.Core.Api.Adapter.Abstraction/RAK.Core.Api.Adapter.Abstraction.csproj"
+    },
+    "RAK.Core.Api.DIRegistration/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Api/RAK.Core.Api.DIRegistration/RAK.Core.Api.DIRegistration.csproj",
+      "msbuildProject": "../../../../RAK/Core/Api/RAK.Core.Api.DIRegistration/RAK.Core.Api.DIRegistration.csproj"
+    },
+    "RAK.Core.Api.Model/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Api/RAK.Core.Api.Model/RAK.Core.Api.Model.csproj",
+      "msbuildProject": "../../../../RAK/Core/Api/RAK.Core.Api.Model/RAK.Core.Api.Model.csproj"
+    },
+    "RAK.Core.Api.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Api/RAK.Core.Api.WebApi/RAK.Core.Api.WebApi.csproj",
+      "msbuildProject": "../../../../RAK/Core/Api/RAK.Core.Api.WebApi/RAK.Core.Api.WebApi.csproj"
+    },
+    "RAK.Core.Service.Entity/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Entity/RAK.Core.Service.Entity.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Entity/RAK.Core.Service.Entity.csproj"
+    },
+    "RAK.Core.Service.Logic/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Logic/RAK.Core.Service.Logic.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Logic/RAK.Core.Service.Logic.csproj"
+    },
+    "RAK.Core.Service.Logic.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Logic.Abstraction/RAK.Core.Service.Logic.Abstraction.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Logic.Abstraction/RAK.Core.Service.Logic.Abstraction.csproj"
+    },
+    "RAK.Core.Service.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Repository/RAK.Core.Service.Repository.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Repository/RAK.Core.Service.Repository.csproj"
+    },
+    "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Repository.Abstraction/RAK.Core.Service.Repository.Abstraction.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Repository.Abstraction/RAK.Core.Service.Repository.Abstraction.csproj"
+    },
+    "RAK.Core.Service.Repository.Database/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Core/Service/RAK.Core.Service.Repository.Database/RAK.Core.Service.Repository.Database.csproj",
+      "msbuildProject": "../../../../RAK/Core/Service/RAK.Core.Service.Repository.Database/RAK.Core.Service.Repository.Database.csproj"
+    },
+    "RAK.Fwk.Api.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.Adapter/RAK.Fwk.Api.Adapter.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.Adapter/RAK.Fwk.Api.Adapter.csproj"
+    },
+    "RAK.Fwk.Api.Model/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.Model/RAK.Fwk.Api.Model.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.Model/RAK.Fwk.Api.Model.csproj"
+    },
+    "RAK.Fwk.Api.WebApi/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.WebApi/RAK.Fwk.Api.WebApi.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Api/RAK.Fwk.Api.WebApi/RAK.Fwk.Api.WebApi.csproj"
+    },
+    "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.AbstractEntity/RAK.Fwk.Common.AbstractEntity.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.AbstractEntity/RAK.Fwk.Common.AbstractEntity.csproj"
+    },
+    "RAK.Fwk.Common.Cross/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Cross/RAK.Fwk.Common.Cross.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Cross/RAK.Fwk.Common.Cross.csproj"
+    },
+    "RAK.Fwk.Common.DependencyInjection/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.DependencyInjection/RAK.Fwk.Common.DependencyInjection.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.DependencyInjection/RAK.Fwk.Common.DependencyInjection.csproj"
+    },
+    "RAK.Fwk.Common.Log/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Log/RAK.Fwk.Common.Log.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Log/RAK.Fwk.Common.Log.csproj"
+    },
+    "RAK.Fwk.Common.Mapper/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Mapper/RAK.Fwk.Common.Mapper.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Common/RAK.Fwk.Common.Mapper/RAK.Fwk.Common.Mapper.csproj"
+    },
+    "RAK.Fwk.Service.Entity/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Entity/RAK.Fwk.Service.Entity.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Entity/RAK.Fwk.Service.Entity.csproj"
+    },
+    "RAK.Fwk.Service.Logic/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Logic/RAK.Fwk.Service.Logic.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Logic/RAK.Fwk.Service.Logic.csproj"
+    },
+    "RAK.Fwk.Service.Logic.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Logic.Abstraction/RAK.Fwk.Service.Logic.Abstraction.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Logic.Abstraction/RAK.Fwk.Service.Logic.Abstraction.csproj"
+    },
+    "RAK.Fwk.Service.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Repository/RAK.Fwk.Service.Repository.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Repository/RAK.Fwk.Service.Repository.csproj"
+    },
+    "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Repository.Abstraction/RAK.Fwk.Service.Repository.Abstraction.csproj",
+      "msbuildProject": "../../../../RAK/Fwk/Service/RAK.Fwk.Service.Repository.Abstraction/RAK.Fwk.Service.Repository.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "OFIUM.App.Api.Adapter.Abstraction >= 1.0.0",
+      "OFIUM.App.Api.DIRegistration >= 1.0.0",
+      "OFIUM.App.Api.Model >= 1.0.0",
+      "OFIUM.App.Common.AbstractEntity >= 1.0.0",
+      "RAK.Core.Api.Adapter.Abstraction >= 1.0.0",
+      "RAK.Core.Api.DIRegistration >= 1.0.0",
+      "RAK.Core.Api.Model >= 1.0.0",
+      "RAK.Core.Api.WebApi >= 1.0.0",
+      "RAK.Fwk.Api.Adapter >= 1.0.0",
+      "RAK.Fwk.Api.Model >= 1.0.0",
+      "RAK.Fwk.Common.AbstractEntity >= 1.0.0",
+      "RAK.Fwk.Common.DependencyInjection >= 1.0.0",
+      "System.Configuration.ConfigurationManager >= 4.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rakna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.WebApi\\OFIUM.App.Api.WebApi.csproj",
+      "projectName": "OFIUM.App.Api.WebApi",
+      "projectPath": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.WebApi\\OFIUM.App.Api.WebApi.csproj",
+      "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+      "outputPath": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.WebApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.Adapter.Abstraction\\OFIUM.App.Api.Adapter.Abstraction.csproj": {
+              "projectPath": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.Adapter.Abstraction\\OFIUM.App.Api.Adapter.Abstraction.csproj"
+            },
+            "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.DIRegistration\\OFIUM.App.Api.DIRegistration.csproj": {
+              "projectPath": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.DIRegistration\\OFIUM.App.Api.DIRegistration.csproj"
+            },
+            "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.Model\\OFIUM.App.Api.Model.csproj": {
+              "projectPath": "C:\\repo\\Seele\\OFIUM\\App\\Api\\OFIUM.App.Api.Model\\OFIUM.App.Api.Model.csproj"
+            },
+            "C:\\repo\\Seele\\OFIUM\\App\\Common\\OFIUM.App.Common.AbstractEntity\\OFIUM.App.Common.AbstractEntity.csproj": {
+              "projectPath": "C:\\repo\\Seele\\OFIUM\\App\\Common\\OFIUM.App.Common.AbstractEntity\\OFIUM.App.Common.AbstractEntity.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.DIRegistration\\RAK.Core.Api.DIRegistration.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.DIRegistration\\RAK.Core.Api.DIRegistration.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj"
+            },
+            "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj": {
+              "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

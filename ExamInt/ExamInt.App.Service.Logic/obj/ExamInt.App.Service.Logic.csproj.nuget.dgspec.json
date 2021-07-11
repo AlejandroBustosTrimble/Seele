@@ -1,0 +1,1005 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic\\ExamInt.App.Service.Logic.csproj": {}
+  },
+  "projects": {
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\ExamInt.App.Common.AbstractEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\ExamInt.App.Common.AbstractEntity.csproj",
+        "projectName": "ExamInt.App.Common.AbstractEntity",
+        "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\ExamInt.App.Common.AbstractEntity.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj",
+        "projectName": "ExamInt.App.Service.Entity",
+        "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\ExamInt.App.Common.AbstractEntity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Common.AbstractEntity\\ExamInt.App.Common.AbstractEntity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\ExamInt.App.Service.Logic.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\ExamInt.App.Service.Logic.Abstraction.csproj",
+        "projectName": "ExamInt.App.Service.Logic.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\ExamInt.App.Service.Logic.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic\\ExamInt.App.Service.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic\\ExamInt.App.Service.Logic.csproj",
+        "projectName": "ExamInt.App.Service.Logic",
+        "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic\\ExamInt.App.Service.Logic.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\ExamInt.App.Service.Logic.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Logic.Abstraction\\ExamInt.App.Service.Logic.Abstraction.csproj"
+              },
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\ExamInt.App.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\ExamInt.App.Service.Repository.Abstraction.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\ExamInt.App.Service.Repository.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\ExamInt.App.Service.Repository.Abstraction.csproj",
+        "projectName": "ExamInt.App.Service.Repository.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\ExamInt.App.Service.Repository.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Repository.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\ExamInt\\ExamInt.App.Service.Entity\\ExamInt.App.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj",
+        "projectName": "RAK.Core.Service.Entity",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj",
+        "projectName": "RAK.Core.Service.Logic.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj",
+        "projectName": "RAK.Core.Service.Logic",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj",
+        "projectName": "RAK.Core.Service.Repository.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj",
+        "projectName": "RAK.Fwk.Common.AbstractEntity",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj",
+        "projectName": "RAK.Fwk.Common.DependencyInjection",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj",
+        "projectName": "RAK.Fwk.Service.Entity",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj",
+        "projectName": "RAK.Fwk.Service.Logic.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj",
+        "projectName": "RAK.Fwk.Service.Logic",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj"
+              },
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj",
+        "projectName": "RAK.Fwk.Service.Repository.Abstraction",
+        "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\rakna\\.nuget\\packages\\",
+        "outputPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rakna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj": {
+                "projectPath": "C:\\repo\\Seele\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

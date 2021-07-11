@@ -1,0 +1,22 @@
+# Ignore NuGet Packages
+*.nupkg
+
+# Ignore the NuGet packages folder in the root of the repository. If needed, prefix 'packages'
+# with additional folder names if it's not in the same folder as .tfignore.   
+\OFIUM\packages\*
+\RAK\packages\*
+OFIUM\App\UI\OFIUM.App.UI.Web.Nuxt.AdminClient\node_modules
+
+# Omit temporary files
+project.lock.json
+project.assets.json
+*.nuget.props
+
+\OFIUM\packages
+\OFIUM\App\UI\OFIUM.App.UI.Web.Nuxt.AdminClient\.nuxt
+\OFIUM\App\UI\OFIUM.App.UI.Web.Nuxt.AdminClient\node_modules
+\OFIUM\App\UI\OFIUM.App.UI.Web.Nuxt.Web\.nuxt
+\OFIUM\App\UI\OFIUM.App.UI.Web.Nuxt.Web\node_modules
+\RAK\packages
+\RAK\Core\UI\RAK.Core.UI.Web.Nuxt\.nuxt
+\RAK\Core\UI\RAK.Core.UI.Web.Nuxt\node_modules

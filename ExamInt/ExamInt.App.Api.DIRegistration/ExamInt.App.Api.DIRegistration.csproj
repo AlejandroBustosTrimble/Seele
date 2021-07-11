@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RAK\Core\Api\RAK.Core.Api.DIRegistration\RAK.Core.Api.DIRegistration.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Api.Adapter\ExamInt.App.Api.Adapter.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Api.Model\ExamInt.App.Api.Model.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Logic\ExamInt.App.Service.Logic.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Repository.Database\ExamInt.App.Service.Repository.Database.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Repository\ExamInt.App.Service.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

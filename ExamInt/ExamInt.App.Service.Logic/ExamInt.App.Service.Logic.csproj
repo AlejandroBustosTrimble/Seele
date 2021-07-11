@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RAK\Core\Service\RAK.Core.Service.Logic\RAK.Core.Service.Logic.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Entity\ExamInt.App.Service.Entity.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Logic.Abstraction\ExamInt.App.Service.Logic.Abstraction.csproj" />
+    <ProjectReference Include="..\ExamInt.App.Service.Repository.Abstraction\ExamInt.App.Service.Repository.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,140 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "OFIUM.App.Service.Entity": "1.0.0",
+          "RAK.Core.Service.Repository.Abstraction": "1.0.0"
+        },
+        "runtime": {
+          "OFIUM.App.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "OFIUM.App.Common.AbstractEntity/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "runtime": {
+          "OFIUM.App.Common.AbstractEntity.dll": {}
+        }
+      },
+      "OFIUM.App.Service.Entity/1.0.0": {
+        "dependencies": {
+          "OFIUM.App.Common.AbstractEntity": "1.0.0",
+          "RAK.Core.Service.Entity": "1.0.0"
+        },
+        "runtime": {
+          "OFIUM.App.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Entity/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Core.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+        "dependencies": {
+          "RAK.Core.Service.Entity": "1.0.0",
+          "RAK.Fwk.Service.Repository.Abstraction": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Core.Service.Repository.Abstraction.dll": {}
+        }
+      },
+      "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+        "runtime": {
+          "RAK.Fwk.Common.AbstractEntity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Entity/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Common.AbstractEntity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Service.Entity.dll": {}
+        }
+      },
+      "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+        "dependencies": {
+          "RAK.Fwk.Service.Entity": "1.0.0"
+        },
+        "runtime": {
+          "RAK.Fwk.Service.Repository.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OFIUM.App.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "OFIUM.App.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OFIUM.App.Service.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Core.Service.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Core.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Common.AbstractEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Service.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RAK.Fwk.Service.Repository.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

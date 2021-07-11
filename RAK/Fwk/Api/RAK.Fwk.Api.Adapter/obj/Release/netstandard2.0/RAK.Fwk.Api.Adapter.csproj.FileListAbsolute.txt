@@ -1,0 +1,14 @@
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Api.Adapter.deps.json
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Api.Adapter.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Api.Adapter.pdb
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Common.DependencyInjection.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Common.DependencyInjection.pdb
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\bin\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.pdb
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.csprojAssemblyReference.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.csproj.CopyComplete
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\obj\Release\netstandard2.0\RAK.Fwk.Api.Adapter.pdb

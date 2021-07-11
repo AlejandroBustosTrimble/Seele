@@ -1,0 +1,12 @@
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Debug\netstandard2.0\RAK.Fwk.Api.Model.deps.json
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Debug\netstandard2.0\RAK.Fwk.Api.Model.dll
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Debug\netstandard2.0\RAK.Fwk.Api.Model.pdb
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.csprojAssemblyReference.cache
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.AssemblyInfoInputs.cache
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.AssemblyInfo.cs
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.csproj.CoreCompileInputs.cache
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.csproj.CopyComplete
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.dll
+C:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Debug\netstandard2.0\RAK.Fwk.Api.Model.pdb

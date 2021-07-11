@@ -1,0 +1,9 @@
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.deps.json
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.csprojAssemblyReference.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\obj\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb

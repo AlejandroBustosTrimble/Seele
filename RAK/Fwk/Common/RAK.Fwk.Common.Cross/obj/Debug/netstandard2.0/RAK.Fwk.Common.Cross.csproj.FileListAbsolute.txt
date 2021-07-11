@@ -1,0 +1,8 @@
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\bin\Debug\netstandard2.0\RAK.Fwk.Common.Cross.deps.json
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\bin\Debug\netstandard2.0\RAK.Fwk.Common.Cross.dll
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\bin\Debug\netstandard2.0\RAK.Fwk.Common.Cross.pdb
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\obj\Debug\netstandard2.0\RAK.Fwk.Common.Cross.AssemblyInfoInputs.cache
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\obj\Debug\netstandard2.0\RAK.Fwk.Common.Cross.AssemblyInfo.cs
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\obj\Debug\netstandard2.0\RAK.Fwk.Common.Cross.csproj.CoreCompileInputs.cache
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\obj\Debug\netstandard2.0\RAK.Fwk.Common.Cross.dll
+C:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Cross\obj\Debug\netstandard2.0\RAK.Fwk.Common.Cross.pdb

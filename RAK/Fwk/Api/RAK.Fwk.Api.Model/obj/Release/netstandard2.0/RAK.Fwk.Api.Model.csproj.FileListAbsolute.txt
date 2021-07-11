@@ -1,0 +1,12 @@
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Release\netstandard2.0\RAK.Fwk.Api.Model.deps.json
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Release\netstandard2.0\RAK.Fwk.Api.Model.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Release\netstandard2.0\RAK.Fwk.Api.Model.pdb
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.csprojAssemblyReference.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.csproj.CopyComplete
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.dll
+c:\repo\Seele\RAK\Fwk\Api\RAK.Fwk.Api.Model\obj\Release\netstandard2.0\RAK.Fwk.Api.Model.pdb

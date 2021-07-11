@@ -1,0 +1,12 @@
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\bin\Debug\netstandard2.0\RAK.Fwk.Service.Entity.deps.json
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\bin\Debug\netstandard2.0\RAK.Fwk.Service.Entity.dll
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\bin\Debug\netstandard2.0\RAK.Fwk.Service.Entity.pdb
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\bin\Debug\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.csprojAssemblyReference.cache
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.AssemblyInfoInputs.cache
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.AssemblyInfo.cs
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.csproj.CoreCompileInputs.cache
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.csproj.CopyComplete
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.dll
+C:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Entity\obj\Debug\netstandard2.0\RAK.Fwk.Service.Entity.pdb

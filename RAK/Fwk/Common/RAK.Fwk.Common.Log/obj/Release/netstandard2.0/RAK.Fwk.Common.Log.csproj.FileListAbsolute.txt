@@ -1,0 +1,12 @@
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\bin\Release\netstandard2.0\RAK.Fwk.Common.Log.deps.json
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\bin\Release\netstandard2.0\RAK.Fwk.Common.Log.dll
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\bin\Release\netstandard2.0\RAK.Fwk.Common.Log.pdb
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\bin\Release\netstandard2.0\RAK.Fwk.Common.DependencyInjection.dll
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\bin\Release\netstandard2.0\RAK.Fwk.Common.DependencyInjection.pdb
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.csprojAssemblyReference.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.csproj.CopyComplete
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.dll
+c:\repo\Seele\RAK\Fwk\Common\RAK.Fwk.Common.Log\obj\Release\netstandard2.0\RAK.Fwk.Common.Log.pdb

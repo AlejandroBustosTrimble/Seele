@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\RAK.Fwk.Common.AbstractEntity.csproj" />
+  </ItemGroup>
+
+</Project>

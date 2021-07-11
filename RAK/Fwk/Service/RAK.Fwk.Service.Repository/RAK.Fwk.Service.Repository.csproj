@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\RAK.Fwk.Common.DependencyInjection\RAK.Fwk.Common.DependencyInjection.csproj" />
+    <ProjectReference Include="..\RAK.Fwk.Service.Repository.Abstraction\RAK.Fwk.Service.Repository.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

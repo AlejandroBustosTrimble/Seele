@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8/zlnstoSnSDSBYi5bw2PqTgetqRJ0Rs/NNAM3cupT2iTfogc7WcUYn1hJ0SirVfjYfU61G0oHjsqxqC5TzTdQ==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\Seele\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Mapper\\RAK.Fwk.Common.Mapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakna\\.nuget\\packages\\autofac\\4.9.0\\autofac.4.9.0.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

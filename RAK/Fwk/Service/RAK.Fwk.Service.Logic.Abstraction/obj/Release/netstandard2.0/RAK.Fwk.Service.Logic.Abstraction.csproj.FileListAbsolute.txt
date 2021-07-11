@@ -1,0 +1,9 @@
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\bin\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.deps.json
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\bin\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.dll
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\bin\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.pdb
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.csprojAssemblyReference.cache
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.dll
+c:\repo\Seele\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\obj\Release\netstandard2.0\RAK.Fwk.Service.Logic.Abstraction.pdb

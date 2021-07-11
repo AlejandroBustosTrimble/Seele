@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EGDstFM7MxKUVeHltaCWpZAhjK7XCZcA9uRD8KHSwfkPr+tBM2tmnwOF44OsknxewxaY3EVpPvOVkG6X33xE3A==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\Seele\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakna\\.nuget\\packages\\autofac\\4.9.0\\autofac.4.9.0.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.7\\microsoft.aspnet.cors.5.2.7.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\microsoft.aspnet.webapi.cors\\5.2.7\\microsoft.aspnet.webapi.cors.5.2.7.nupkg.sha512",
+    "C:\\Users\\rakna\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\bin\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.deps.json
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\bin\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.dll
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\bin\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.pdb
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.dll
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\bin\Release\netstandard2.0\RAK.Fwk.Common.AbstractEntity.pdb
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.csprojAssemblyReference.cache
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.csproj.CoreCompileInputs.cache
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.AssemblyInfoInputs.cache
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.AssemblyInfo.cs
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.csproj.CopyComplete
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.dll
+c:\repo\Seele\OFIUM\App\Common\OFIUM.App.Common.AbstractEntity\obj\Release\netstandard2.0\OFIUM.App.Common.AbstractEntity.pdb

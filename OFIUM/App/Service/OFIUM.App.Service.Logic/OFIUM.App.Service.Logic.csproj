@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\RAK\Core\Service\RAK.Core.Service.Logic\RAK.Core.Service.Logic.csproj" />
+    <ProjectReference Include="..\OFIUM.App.Service.Entity\OFIUM.App.Service.Entity.csproj" />
+    <ProjectReference Include="..\OFIUM.App.Service.Logic.Abstraction\OFIUM.App.Service.Logic.Abstraction.csproj" />
+    <ProjectReference Include="..\OFIUM.App.Service.Repository.Abstraction\OFIUM.App.Service.Repository.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

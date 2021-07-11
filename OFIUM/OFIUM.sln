@@ -1,0 +1,485 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{0FB36629-658F-4E10-B846-135C1725EA12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{638B8D94-4235-45A4-9A03-0A80C08B22A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E1D59CC1-E775-457E-9B49-220E6C5BB329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{615379A2-5EC7-4EF4-8145-60A198153811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5B95A51E-C05B-4239-AD44-2DDB71F713C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{F0B7FF89-60D5-4314-94EF-3B1978291220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{238B40DC-0034-45FA-9AD5-9DE5CE4A0957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F12AD485-539E-44FE-A457-D0E7E812ECFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{80B42801-70FB-4969-99A7-9637678D5CB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{8A162DD1-4DFB-4099-9318-52788E72A46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{4D669A8C-FB9E-4811-9269-48C946A12EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E6B4EC9A-5127-428F-AA7E-70B1C0AB3EBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Api.Adapter", "App\Api\OFIUM.App.Api.Adapter\OFIUM.App.Api.Adapter.csproj", "{F897E0E7-EE96-41C2-8980-9A9BC947AD79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Api.Adapter.Abstraction", "App\Api\OFIUM.App.Api.Adapter.Abstraction\OFIUM.App.Api.Adapter.Abstraction.csproj", "{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Api.Model", "App\Api\OFIUM.App.Api.Model\OFIUM.App.Api.Model.csproj", "{F40DB6FB-9A58-4DF5-98E5-39E5862D422E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OFIUM.App.Api.WebApi", "App\Api\OFIUM.App.Api.WebApi\OFIUM.App.Api.WebApi.csproj", "{B553E880-D081-4137-891C-3F648062AA60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Entity", "App\Service\OFIUM.App.Service.Entity\OFIUM.App.Service.Entity.csproj", "{A35EF163-5A0F-48DE-9907-19EC456DB344}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Logic", "App\Service\OFIUM.App.Service.Logic\OFIUM.App.Service.Logic.csproj", "{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Logic.Abstraction", "App\Service\OFIUM.App.Service.Logic.Abstraction\OFIUM.App.Service.Logic.Abstraction.csproj", "{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Repository", "App\Service\OFIUM.App.Service.Repository\OFIUM.App.Service.Repository.csproj", "{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Repository.Abstraction", "App\Service\OFIUM.App.Service.Repository.Abstraction\OFIUM.App.Service.Repository.Abstraction.csproj", "{2BFA69F3-BCAC-44F3-BDE9-882B560AF362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Repository.Database", "App\Service\OFIUM.App.Service.Repository.Database\OFIUM.App.Service.Repository.Database.csproj", "{46285C73-822A-433A-A6BA-365E3340658C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Common.AbstractEntity", "App\Common\OFIUM.App.Common.AbstractEntity\OFIUM.App.Common.AbstractEntity.csproj", "{3DBE7294-6D1E-4310-96C8-3449937FE9D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fwk", "Fwk", "{8964AC44-5B32-4576-91F5-CA2D382D8D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{24F329D1-CCF9-4AAA-8328-E8DB3A0C992C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{643E3527-FFF7-402D-8DD8-1D61FFC6D195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B952793A-D482-4F45-AA03-EED19B5E1485}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{FA5F91AF-97A7-4601-8969-1AA04D5DB858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{8944DA04-CBD4-459B-BFEB-9A97B16A4C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Adapter", "..\RAK\Core\Api\RAK.Core.Api.Adapter\RAK.Core.Api.Adapter.csproj", "{31E67E9D-FC03-47D9-AA80-7EF976D2FC57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Adapter.Abstraction", "..\RAK\Core\Api\RAK.Core.Api.Adapter.Abstraction\RAK.Core.Api.Adapter.Abstraction.csproj", "{CB06C5E1-16CC-4CC6-9079-EF28A31A649C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.Model", "..\RAK\Core\Api\RAK.Core.Api.Model\RAK.Core.Api.Model.csproj", "{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAK.Core.Api.WebApi", "..\RAK\Core\Api\RAK.Core.Api.WebApi\RAK.Core.Api.WebApi.csproj", "{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Entity", "..\RAK\Core\Service\RAK.Core.Service.Entity\RAK.Core.Service.Entity.csproj", "{7CF2F21B-BB43-4428-A5A6-3F50AE450562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Logic", "..\RAK\Core\Service\RAK.Core.Service.Logic\RAK.Core.Service.Logic.csproj", "{CA6636E2-0099-49AA-8273-9110D912CE11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Logic.Abstraction", "..\RAK\Core\Service\RAK.Core.Service.Logic.Abstraction\RAK.Core.Service.Logic.Abstraction.csproj", "{DABA6155-41AF-456B-85C1-A59C58438CE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository", "..\RAK\Core\Service\RAK.Core.Service.Repository\RAK.Core.Service.Repository.csproj", "{B695BD8E-F802-4231-ADF4-1A8DB23A605B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository.Abstraction", "..\RAK\Core\Service\RAK.Core.Service.Repository.Abstraction\RAK.Core.Service.Repository.Abstraction.csproj", "{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Service.Repository.Database", "..\RAK\Core\Service\RAK.Core.Service.Repository.Database\RAK.Core.Service.Repository.Database.csproj", "{4524B3F7-6BC6-455C-90E1-123C58977373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.Adapter", "..\RAK\Fwk\Api\RAK.Fwk.Api.Adapter\RAK.Fwk.Api.Adapter.csproj", "{6AB25C82-E04A-4F74-B916-22B2BC20226A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.Model", "..\RAK\Fwk\Api\RAK.Fwk.Api.Model\RAK.Fwk.Api.Model.csproj", "{1EB0F9D6-DB6D-475E-B975-225CF37BFE51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Api.WebApi", "..\RAK\Fwk\Api\RAK.Fwk.Api.WebApi\RAK.Fwk.Api.WebApi.csproj", "{0AD9A0F1-FADE-4989-A72F-00E01863B5CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.AbstractEntity", "..\RAK\Fwk\Common\RAK.Fwk.Common.AbstractEntity\RAK.Fwk.Common.AbstractEntity.csproj", "{C996AE82-E63D-44EF-BF84-7733F9C7BE9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Cross", "..\RAK\Fwk\Common\RAK.Fwk.Common.Cross\RAK.Fwk.Common.Cross.csproj", "{10A3A0AC-4E45-4476-A341-C89796ECEF1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.DependencyInjection", "..\RAK\Fwk\Common\RAK.Fwk.Common.DependencyInjection\RAK.Fwk.Common.DependencyInjection.csproj", "{17345158-B9E8-4BB4-8FD0-10B2297EB73E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Log", "..\RAK\Fwk\Common\RAK.Fwk.Common.Log\RAK.Fwk.Common.Log.csproj", "{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Common.Mapper", "..\RAK\Fwk\Common\RAK.Fwk.Common.Mapper\RAK.Fwk.Common.Mapper.csproj", "{5A2FECE6-72B0-4E70-A17B-98AEC7583164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Entity", "..\RAK\Fwk\Service\RAK.Fwk.Service.Entity\RAK.Fwk.Service.Entity.csproj", "{AC606936-D121-4132-BDF2-B830F79D6258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Logic", "..\RAK\Fwk\Service\RAK.Fwk.Service.Logic\RAK.Fwk.Service.Logic.csproj", "{FB1D1280-639F-40E7-9D48-C34B1097C40C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Logic.Abstraction", "..\RAK\Fwk\Service\RAK.Fwk.Service.Logic.Abstraction\RAK.Fwk.Service.Logic.Abstraction.csproj", "{ABFBBC8B-C465-464E-A0AA-D1A9566AE893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Repository", "..\RAK\Fwk\Service\RAK.Fwk.Service.Repository\RAK.Fwk.Service.Repository.csproj", "{D65443EC-782C-4DE0-89FE-24D51D9D2F27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Fwk.Service.Repository.Abstraction", "..\RAK\Fwk\Service\RAK.Fwk.Service.Repository.Abstraction\RAK.Fwk.Service.Repository.Abstraction.csproj", "{CDAFF1C1-67D8-4226-88D8-D95816CBC41E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RAK.Core.Api.DIRegistration", "..\RAK\Core\Api\RAK.Core.Api.DIRegistration\RAK.Core.Api.DIRegistration.csproj", "{D1AFB195-BB37-4839-AE07-376AEA75162E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Api.DIRegistration", "App\Api\OFIUM.App.Api.DIRegistration\OFIUM.App.Api.DIRegistration.csproj", "{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OFIUM.App.Service.Repository.Map", "App\Service\OFIUM.App.Service.Repository.Map\OFIUM.App.Service.Repository.Map.csproj", "{721E1B3B-3D06-400E-B109-75A6502E6F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F897E0E7-EE96-41C2-8980-9A9BC947AD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897E0E7-EE96-41C2-8980-9A9BC947AD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897E0E7-EE96-41C2-8980-9A9BC947AD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897E0E7-EE96-41C2-8980-9A9BC947AD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40DB6FB-9A58-4DF5-98E5-39E5862D422E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40DB6FB-9A58-4DF5-98E5-39E5862D422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40DB6FB-9A58-4DF5-98E5-39E5862D422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40DB6FB-9A58-4DF5-98E5-39E5862D422E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B553E880-D081-4137-891C-3F648062AA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B553E880-D081-4137-891C-3F648062AA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B553E880-D081-4137-891C-3F648062AA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B553E880-D081-4137-891C-3F648062AA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35EF163-5A0F-48DE-9907-19EC456DB344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35EF163-5A0F-48DE-9907-19EC456DB344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35EF163-5A0F-48DE-9907-19EC456DB344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35EF163-5A0F-48DE-9907-19EC456DB344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFA69F3-BCAC-44F3-BDE9-882B560AF362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFA69F3-BCAC-44F3-BDE9-882B560AF362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFA69F3-BCAC-44F3-BDE9-882B560AF362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFA69F3-BCAC-44F3-BDE9-882B560AF362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46285C73-822A-433A-A6BA-365E3340658C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46285C73-822A-433A-A6BA-365E3340658C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46285C73-822A-433A-A6BA-365E3340658C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46285C73-822A-433A-A6BA-365E3340658C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBE7294-6D1E-4310-96C8-3449937FE9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBE7294-6D1E-4310-96C8-3449937FE9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBE7294-6D1E-4310-96C8-3449937FE9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBE7294-6D1E-4310-96C8-3449937FE9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E67E9D-FC03-47D9-AA80-7EF976D2FC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E67E9D-FC03-47D9-AA80-7EF976D2FC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E67E9D-FC03-47D9-AA80-7EF976D2FC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E67E9D-FC03-47D9-AA80-7EF976D2FC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB06C5E1-16CC-4CC6-9079-EF28A31A649C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB06C5E1-16CC-4CC6-9079-EF28A31A649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB06C5E1-16CC-4CC6-9079-EF28A31A649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB06C5E1-16CC-4CC6-9079-EF28A31A649C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF2F21B-BB43-4428-A5A6-3F50AE450562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF2F21B-BB43-4428-A5A6-3F50AE450562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF2F21B-BB43-4428-A5A6-3F50AE450562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF2F21B-BB43-4428-A5A6-3F50AE450562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6636E2-0099-49AA-8273-9110D912CE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6636E2-0099-49AA-8273-9110D912CE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6636E2-0099-49AA-8273-9110D912CE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6636E2-0099-49AA-8273-9110D912CE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABA6155-41AF-456B-85C1-A59C58438CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABA6155-41AF-456B-85C1-A59C58438CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABA6155-41AF-456B-85C1-A59C58438CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABA6155-41AF-456B-85C1-A59C58438CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B695BD8E-F802-4231-ADF4-1A8DB23A605B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B695BD8E-F802-4231-ADF4-1A8DB23A605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B695BD8E-F802-4231-ADF4-1A8DB23A605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B695BD8E-F802-4231-ADF4-1A8DB23A605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4524B3F7-6BC6-455C-90E1-123C58977373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4524B3F7-6BC6-455C-90E1-123C58977373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4524B3F7-6BC6-455C-90E1-123C58977373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4524B3F7-6BC6-455C-90E1-123C58977373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB25C82-E04A-4F74-B916-22B2BC20226A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB25C82-E04A-4F74-B916-22B2BC20226A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB25C82-E04A-4F74-B916-22B2BC20226A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB25C82-E04A-4F74-B916-22B2BC20226A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB0F9D6-DB6D-475E-B975-225CF37BFE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB0F9D6-DB6D-475E-B975-225CF37BFE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB0F9D6-DB6D-475E-B975-225CF37BFE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB0F9D6-DB6D-475E-B975-225CF37BFE51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD9A0F1-FADE-4989-A72F-00E01863B5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD9A0F1-FADE-4989-A72F-00E01863B5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD9A0F1-FADE-4989-A72F-00E01863B5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD9A0F1-FADE-4989-A72F-00E01863B5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C996AE82-E63D-44EF-BF84-7733F9C7BE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C996AE82-E63D-44EF-BF84-7733F9C7BE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C996AE82-E63D-44EF-BF84-7733F9C7BE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C996AE82-E63D-44EF-BF84-7733F9C7BE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A3A0AC-4E45-4476-A341-C89796ECEF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A3A0AC-4E45-4476-A341-C89796ECEF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A3A0AC-4E45-4476-A341-C89796ECEF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A3A0AC-4E45-4476-A341-C89796ECEF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17345158-B9E8-4BB4-8FD0-10B2297EB73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17345158-B9E8-4BB4-8FD0-10B2297EB73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17345158-B9E8-4BB4-8FD0-10B2297EB73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17345158-B9E8-4BB4-8FD0-10B2297EB73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2FECE6-72B0-4E70-A17B-98AEC7583164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2FECE6-72B0-4E70-A17B-98AEC7583164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2FECE6-72B0-4E70-A17B-98AEC7583164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2FECE6-72B0-4E70-A17B-98AEC7583164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC606936-D121-4132-BDF2-B830F79D6258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC606936-D121-4132-BDF2-B830F79D6258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC606936-D121-4132-BDF2-B830F79D6258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC606936-D121-4132-BDF2-B830F79D6258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1D1280-639F-40E7-9D48-C34B1097C40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1D1280-639F-40E7-9D48-C34B1097C40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1D1280-639F-40E7-9D48-C34B1097C40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1D1280-639F-40E7-9D48-C34B1097C40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFBBC8B-C465-464E-A0AA-D1A9566AE893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFBBC8B-C465-464E-A0AA-D1A9566AE893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFBBC8B-C465-464E-A0AA-D1A9566AE893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFBBC8B-C465-464E-A0AA-D1A9566AE893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65443EC-782C-4DE0-89FE-24D51D9D2F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65443EC-782C-4DE0-89FE-24D51D9D2F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65443EC-782C-4DE0-89FE-24D51D9D2F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65443EC-782C-4DE0-89FE-24D51D9D2F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAFF1C1-67D8-4226-88D8-D95816CBC41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAFF1C1-67D8-4226-88D8-D95816CBC41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAFF1C1-67D8-4226-88D8-D95816CBC41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAFF1C1-67D8-4226-88D8-D95816CBC41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AFB195-BB37-4839-AE07-376AEA75162E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AFB195-BB37-4839-AE07-376AEA75162E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AFB195-BB37-4839-AE07-376AEA75162E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AFB195-BB37-4839-AE07-376AEA75162E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721E1B3B-3D06-400E-B109-75A6502E6F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721E1B3B-3D06-400E-B109-75A6502E6F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721E1B3B-3D06-400E-B109-75A6502E6F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721E1B3B-3D06-400E-B109-75A6502E6F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1D59CC1-E775-457E-9B49-220E6C5BB329} = {638B8D94-4235-45A4-9A03-0A80C08B22A4}
+		{615379A2-5EC7-4EF4-8145-60A198153811} = {638B8D94-4235-45A4-9A03-0A80C08B22A4}
+		{5B95A51E-C05B-4239-AD44-2DDB71F713C6} = {638B8D94-4235-45A4-9A03-0A80C08B22A4}
+		{F0B7FF89-60D5-4314-94EF-3B1978291220} = {638B8D94-4235-45A4-9A03-0A80C08B22A4}
+		{238B40DC-0034-45FA-9AD5-9DE5CE4A0957} = {638B8D94-4235-45A4-9A03-0A80C08B22A4}
+		{F12AD485-539E-44FE-A457-D0E7E812ECFE} = {0FB36629-658F-4E10-B846-135C1725EA12}
+		{80B42801-70FB-4969-99A7-9637678D5CB2} = {0FB36629-658F-4E10-B846-135C1725EA12}
+		{8A162DD1-4DFB-4099-9318-52788E72A46B} = {0FB36629-658F-4E10-B846-135C1725EA12}
+		{4D669A8C-FB9E-4811-9269-48C946A12EE1} = {0FB36629-658F-4E10-B846-135C1725EA12}
+		{E6B4EC9A-5127-428F-AA7E-70B1C0AB3EBD} = {0FB36629-658F-4E10-B846-135C1725EA12}
+		{F897E0E7-EE96-41C2-8980-9A9BC947AD79} = {F12AD485-539E-44FE-A457-D0E7E812ECFE}
+		{7BBF2FE1-A04D-4FAE-B442-3F5B150CC29D} = {F12AD485-539E-44FE-A457-D0E7E812ECFE}
+		{F40DB6FB-9A58-4DF5-98E5-39E5862D422E} = {F12AD485-539E-44FE-A457-D0E7E812ECFE}
+		{B553E880-D081-4137-891C-3F648062AA60} = {F12AD485-539E-44FE-A457-D0E7E812ECFE}
+		{A35EF163-5A0F-48DE-9907-19EC456DB344} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{49A2FA53-0006-4C29-BB5A-5C4BD4153C3D} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{ECE803F9-3C7F-44B6-987E-3F6E1E1579A5} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{A77CDB07-B9C1-4FC8-B37E-9B54880DAFF9} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{2BFA69F3-BCAC-44F3-BDE9-882B560AF362} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{46285C73-822A-433A-A6BA-365E3340658C} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+		{3DBE7294-6D1E-4310-96C8-3449937FE9D1} = {80B42801-70FB-4969-99A7-9637678D5CB2}
+		{24F329D1-CCF9-4AAA-8328-E8DB3A0C992C} = {8964AC44-5B32-4576-91F5-CA2D382D8D4E}
+		{643E3527-FFF7-402D-8DD8-1D61FFC6D195} = {8964AC44-5B32-4576-91F5-CA2D382D8D4E}
+		{B952793A-D482-4F45-AA03-EED19B5E1485} = {8964AC44-5B32-4576-91F5-CA2D382D8D4E}
+		{FA5F91AF-97A7-4601-8969-1AA04D5DB858} = {8964AC44-5B32-4576-91F5-CA2D382D8D4E}
+		{8944DA04-CBD4-459B-BFEB-9A97B16A4C1B} = {8964AC44-5B32-4576-91F5-CA2D382D8D4E}
+		{31E67E9D-FC03-47D9-AA80-7EF976D2FC57} = {615379A2-5EC7-4EF4-8145-60A198153811}
+		{CB06C5E1-16CC-4CC6-9079-EF28A31A649C} = {615379A2-5EC7-4EF4-8145-60A198153811}
+		{3D0CCBD5-8D94-45ED-BF5C-5F6768AFEC1A} = {615379A2-5EC7-4EF4-8145-60A198153811}
+		{58D4BF72-E732-4CA8-9E71-EA9E2B8C2855} = {615379A2-5EC7-4EF4-8145-60A198153811}
+		{7CF2F21B-BB43-4428-A5A6-3F50AE450562} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{CA6636E2-0099-49AA-8273-9110D912CE11} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{DABA6155-41AF-456B-85C1-A59C58438CE0} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{B695BD8E-F802-4231-ADF4-1A8DB23A605B} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{C4D23078-5AFD-4F9B-9DD2-BBBFA7E61218} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{4524B3F7-6BC6-455C-90E1-123C58977373} = {5B95A51E-C05B-4239-AD44-2DDB71F713C6}
+		{6AB25C82-E04A-4F74-B916-22B2BC20226A} = {24F329D1-CCF9-4AAA-8328-E8DB3A0C992C}
+		{1EB0F9D6-DB6D-475E-B975-225CF37BFE51} = {24F329D1-CCF9-4AAA-8328-E8DB3A0C992C}
+		{0AD9A0F1-FADE-4989-A72F-00E01863B5CD} = {24F329D1-CCF9-4AAA-8328-E8DB3A0C992C}
+		{C996AE82-E63D-44EF-BF84-7733F9C7BE9C} = {643E3527-FFF7-402D-8DD8-1D61FFC6D195}
+		{10A3A0AC-4E45-4476-A341-C89796ECEF1F} = {643E3527-FFF7-402D-8DD8-1D61FFC6D195}
+		{17345158-B9E8-4BB4-8FD0-10B2297EB73E} = {643E3527-FFF7-402D-8DD8-1D61FFC6D195}
+		{9CBC30DE-4CBF-487F-A8AC-18C0C0E0A75C} = {643E3527-FFF7-402D-8DD8-1D61FFC6D195}
+		{5A2FECE6-72B0-4E70-A17B-98AEC7583164} = {643E3527-FFF7-402D-8DD8-1D61FFC6D195}
+		{AC606936-D121-4132-BDF2-B830F79D6258} = {B952793A-D482-4F45-AA03-EED19B5E1485}
+		{FB1D1280-639F-40E7-9D48-C34B1097C40C} = {B952793A-D482-4F45-AA03-EED19B5E1485}
+		{ABFBBC8B-C465-464E-A0AA-D1A9566AE893} = {B952793A-D482-4F45-AA03-EED19B5E1485}
+		{D65443EC-782C-4DE0-89FE-24D51D9D2F27} = {B952793A-D482-4F45-AA03-EED19B5E1485}
+		{CDAFF1C1-67D8-4226-88D8-D95816CBC41E} = {B952793A-D482-4F45-AA03-EED19B5E1485}
+		{D1AFB195-BB37-4839-AE07-376AEA75162E} = {615379A2-5EC7-4EF4-8145-60A198153811}
+		{BA553C93-A4DF-40A8-A8E9-34D6C720CFCD} = {F12AD485-539E-44FE-A457-D0E7E812ECFE}
+		{721E1B3B-3D06-400E-B109-75A6502E6F8F} = {8A162DD1-4DFB-4099-9318-52788E72A46B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BD3FD21-BDF3-4EBD-909D-33C60B488AEB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 38
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alejandrobustos.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Adapter\\RAK.Core.Api.Adapter.csproj
+		SccProjectTopLevelParentUniqueName1 = OFIUM.sln
+		SccProjectName1 = ../RAK/Core/Api/RAK.Core.Api.Adapter
+		SccLocalPath1 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Adapter
+		SccProjectUniqueName2 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction\\RAK.Core.Api.Adapter.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName2 = OFIUM.sln
+		SccProjectName2 = ../RAK/Core/Api/RAK.Core.Api.Adapter.Abstraction
+		SccLocalPath2 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Adapter.Abstraction
+		SccProjectUniqueName3 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Model\\RAK.Core.Api.Model.csproj
+		SccProjectTopLevelParentUniqueName3 = OFIUM.sln
+		SccProjectName3 = ../RAK/Core/Api/RAK.Core.Api.Model
+		SccLocalPath3 = ..\\RAK\\Core\\Api\\RAK.Core.Api.Model
+		SccProjectUniqueName4 = ..\\RAK\\Core\\Api\\RAK.Core.Api.WebApi\\RAK.Core.Api.WebApi.csproj
+		SccProjectTopLevelParentUniqueName4 = OFIUM.sln
+		SccProjectName4 = ../RAK/Core/Api/RAK.Core.Api.WebApi
+		SccLocalPath4 = ..\\RAK\\Core\\Api\\RAK.Core.Api.WebApi
+		SccProjectUniqueName5 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Entity\\RAK.Core.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName5 = OFIUM.sln
+		SccProjectName5 = ../RAK/Core/Service/RAK.Core.Service.Entity
+		SccLocalPath5 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Entity
+		SccProjectUniqueName6 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Logic\\RAK.Core.Service.Logic.csproj
+		SccProjectTopLevelParentUniqueName6 = OFIUM.sln
+		SccProjectName6 = ../RAK/Core/Service/RAK.Core.Service.Logic
+		SccLocalPath6 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Logic
+		SccProjectUniqueName7 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction\\RAK.Core.Service.Logic.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName7 = OFIUM.sln
+		SccProjectName7 = ../RAK/Core/Service/RAK.Core.Service.Logic.Abstraction
+		SccLocalPath7 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Logic.Abstraction
+		SccProjectUniqueName8 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository\\RAK.Core.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName8 = OFIUM.sln
+		SccProjectName8 = ../RAK/Core/Service/RAK.Core.Service.Repository
+		SccLocalPath8 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository
+		SccProjectUniqueName9 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction\\RAK.Core.Service.Repository.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName9 = OFIUM.sln
+		SccProjectName9 = ../RAK/Core/Service/RAK.Core.Service.Repository.Abstraction
+		SccLocalPath9 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Abstraction
+		SccProjectUniqueName10 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Database\\RAK.Core.Service.Repository.Database.csproj
+		SccProjectTopLevelParentUniqueName10 = OFIUM.sln
+		SccProjectName10 = ../RAK/Core/Service/RAK.Core.Service.Repository.Database
+		SccLocalPath10 = ..\\RAK\\Core\\Service\\RAK.Core.Service.Repository.Database
+		SccProjectUniqueName11 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter\\RAK.Fwk.Api.Adapter.csproj
+		SccProjectTopLevelParentUniqueName11 = OFIUM.sln
+		SccProjectName11 = ../RAK/Fwk/Api/RAK.Fwk.Api.Adapter
+		SccLocalPath11 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Adapter
+		SccProjectUniqueName12 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model\\RAK.Fwk.Api.Model.csproj
+		SccProjectTopLevelParentUniqueName12 = OFIUM.sln
+		SccProjectName12 = ../RAK/Fwk/Api/RAK.Fwk.Api.Model
+		SccLocalPath12 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.Model
+		SccProjectUniqueName13 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.WebApi\\RAK.Fwk.Api.WebApi.csproj
+		SccProjectTopLevelParentUniqueName13 = OFIUM.sln
+		SccProjectName13 = ../RAK/Fwk/Api/RAK.Fwk.Api.WebApi
+		SccLocalPath13 = ..\\RAK\\Fwk\\Api\\RAK.Fwk.Api.WebApi
+		SccProjectUniqueName14 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity\\RAK.Fwk.Common.AbstractEntity.csproj
+		SccProjectTopLevelParentUniqueName14 = OFIUM.sln
+		SccProjectName14 = ../RAK/Fwk/Common/RAK.Fwk.Common.AbstractEntity
+		SccLocalPath14 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.AbstractEntity
+		SccProjectUniqueName15 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Cross\\RAK.Fwk.Common.Cross.csproj
+		SccProjectTopLevelParentUniqueName15 = OFIUM.sln
+		SccProjectName15 = ../RAK/Fwk/Common/RAK.Fwk.Common.Cross
+		SccLocalPath15 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Cross
+		SccProjectUniqueName16 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection\\RAK.Fwk.Common.DependencyInjection.csproj
+		SccProjectTopLevelParentUniqueName16 = OFIUM.sln
+		SccProjectName16 = ../RAK/Fwk/Common/RAK.Fwk.Common.DependencyInjection
+		SccLocalPath16 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.DependencyInjection
+		SccProjectUniqueName17 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Log\\RAK.Fwk.Common.Log.csproj
+		SccProjectTopLevelParentUniqueName17 = OFIUM.sln
+		SccProjectName17 = ../RAK/Fwk/Common/RAK.Fwk.Common.Log
+		SccLocalPath17 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Log
+		SccProjectUniqueName18 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Mapper\\RAK.Fwk.Common.Mapper.csproj
+		SccProjectTopLevelParentUniqueName18 = OFIUM.sln
+		SccProjectName18 = ../RAK/Fwk/Common/RAK.Fwk.Common.Mapper
+		SccLocalPath18 = ..\\RAK\\Fwk\\Common\\RAK.Fwk.Common.Mapper
+		SccProjectUniqueName19 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity\\RAK.Fwk.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName19 = OFIUM.sln
+		SccProjectName19 = ../RAK/Fwk/Service/RAK.Fwk.Service.Entity
+		SccLocalPath19 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Entity
+		SccProjectUniqueName20 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic\\RAK.Fwk.Service.Logic.csproj
+		SccProjectTopLevelParentUniqueName20 = OFIUM.sln
+		SccProjectName20 = ../RAK/Fwk/Service/RAK.Fwk.Service.Logic
+		SccLocalPath20 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic
+		SccProjectUniqueName21 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction\\RAK.Fwk.Service.Logic.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName21 = OFIUM.sln
+		SccProjectName21 = ../RAK/Fwk/Service/RAK.Fwk.Service.Logic.Abstraction
+		SccLocalPath21 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Logic.Abstraction
+		SccProjectUniqueName22 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository\\RAK.Fwk.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName22 = OFIUM.sln
+		SccProjectName22 = ../RAK/Fwk/Service/RAK.Fwk.Service.Repository
+		SccLocalPath22 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository
+		SccProjectUniqueName23 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction\\RAK.Fwk.Service.Repository.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName23 = OFIUM.sln
+		SccProjectName23 = ../RAK/Fwk/Service/RAK.Fwk.Service.Repository.Abstraction
+		SccLocalPath23 = ..\\RAK\\Fwk\\Service\\RAK.Fwk.Service.Repository.Abstraction
+		SccProjectUniqueName24 = App\\Api\\OFIUM.App.Api.Adapter.Abstraction\\OFIUM.App.Api.Adapter.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName24 = OFIUM.sln
+		SccProjectName24 = App/Api/OFIUM.App.Api.Adapter.Abstraction
+		SccLocalPath24 = App\\Api\\OFIUM.App.Api.Adapter.Abstraction
+		SccProjectUniqueName25 = App\\Api\\OFIUM.App.Api.Adapter\\OFIUM.App.Api.Adapter.csproj
+		SccProjectTopLevelParentUniqueName25 = OFIUM.sln
+		SccProjectName25 = App/Api/OFIUM.App.Api.Adapter
+		SccLocalPath25 = App\\Api\\OFIUM.App.Api.Adapter
+		SccProjectUniqueName26 = App\\Api\\OFIUM.App.Api.Model\\OFIUM.App.Api.Model.csproj
+		SccProjectTopLevelParentUniqueName26 = OFIUM.sln
+		SccProjectName26 = App/Api/OFIUM.App.Api.Model
+		SccLocalPath26 = App\\Api\\OFIUM.App.Api.Model
+		SccProjectUniqueName27 = App\\Api\\OFIUM.App.Api.WebApi\\OFIUM.App.Api.WebApi.csproj
+		SccProjectTopLevelParentUniqueName27 = OFIUM.sln
+		SccProjectName27 = App/Api/OFIUM.App.Api.WebApi
+		SccLocalPath27 = App\\Api\\OFIUM.App.Api.WebApi
+		SccProjectUniqueName28 = App\\Common\\OFIUM.App.Common.AbstractEntity\\OFIUM.App.Common.AbstractEntity.csproj
+		SccProjectTopLevelParentUniqueName28 = OFIUM.sln
+		SccProjectName28 = App/Common/OFIUM.App.Common.AbstractEntity
+		SccLocalPath28 = App\\Common\\OFIUM.App.Common.AbstractEntity
+		SccProjectUniqueName29 = App\\Service\\OFIUM.App.Service.Entity\\OFIUM.App.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName29 = OFIUM.sln
+		SccProjectName29 = App/Service/OFIUM.App.Service.Entity
+		SccLocalPath29 = App\\Service\\OFIUM.App.Service.Entity
+		SccProjectUniqueName30 = App\\Service\\OFIUM.App.Service.Logic.Abstraction\\OFIUM.App.Service.Logic.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName30 = OFIUM.sln
+		SccProjectName30 = App/Service/OFIUM.App.Service.Logic.Abstraction
+		SccLocalPath30 = App\\Service\\OFIUM.App.Service.Logic.Abstraction
+		SccProjectUniqueName31 = App\\Service\\OFIUM.App.Service.Logic\\OFIUM.App.Service.Logic.csproj
+		SccProjectTopLevelParentUniqueName31 = OFIUM.sln
+		SccProjectName31 = App/Service/OFIUM.App.Service.Logic
+		SccLocalPath31 = App\\Service\\OFIUM.App.Service.Logic
+		SccProjectUniqueName32 = App\\Service\\OFIUM.App.Service.Repository.Abstraction\\OFIUM.App.Service.Repository.Abstraction.csproj
+		SccProjectTopLevelParentUniqueName32 = OFIUM.sln
+		SccProjectName32 = App/Service/OFIUM.App.Service.Repository.Abstraction
+		SccLocalPath32 = App\\Service\\OFIUM.App.Service.Repository.Abstraction
+		SccProjectUniqueName33 = App\\Service\\OFIUM.App.Service.Repository.Database\\OFIUM.App.Service.Repository.Database.csproj
+		SccProjectTopLevelParentUniqueName33 = OFIUM.sln
+		SccProjectName33 = App/Service/OFIUM.App.Service.Repository.Database
+		SccLocalPath33 = App\\Service\\OFIUM.App.Service.Repository.Database
+		SccProjectUniqueName34 = App\\Service\\OFIUM.App.Service.Repository\\OFIUM.App.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName34 = OFIUM.sln
+		SccProjectName34 = App/Service/OFIUM.App.Service.Repository
+		SccLocalPath34 = App\\Service\\OFIUM.App.Service.Repository
+		SccProjectUniqueName35 = ..\\RAK\\Core\\Api\\RAK.Core.Api.DIRegistration\\RAK.Core.Api.DIRegistration.csproj
+		SccProjectTopLevelParentUniqueName35 = OFIUM.sln
+		SccProjectName35 = ../RAK/Core/Api/RAK.Core.Api.DIRegistration
+		SccLocalPath35 = ..\\RAK\\Core\\Api\\RAK.Core.Api.DIRegistration
+		SccProjectUniqueName36 = App\\Api\\OFIUM.App.Api.DIRegistration\\OFIUM.App.Api.DIRegistration.csproj
+		SccProjectTopLevelParentUniqueName36 = OFIUM.sln
+		SccProjectName36 = App/Api/OFIUM.App.Api.DIRegistration
+		SccLocalPath36 = App\\Api\\OFIUM.App.Api.DIRegistration
+		SccProjectUniqueName37 = App\\Service\\OFIUM.App.Service.Repository.Map\\OFIUM.App.Service.Repository.Map.csproj
+		SccProjectTopLevelParentUniqueName37 = OFIUM.sln
+		SccProjectName37 = App/Service/OFIUM.App.Service.Repository.Map
+		SccLocalPath37 = App\\Service\\OFIUM.App.Service.Repository.Map
+	EndGlobalSection
+EndGlobal

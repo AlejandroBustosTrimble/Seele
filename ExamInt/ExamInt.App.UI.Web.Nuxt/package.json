@@ -1,0 +1,18 @@
+{
+  "name": "ExamInt.App.UI.Web.Nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "nuxt": "^2.14.6",
+    "rak_nuxt": "file:../../RAK/Core/UI/RAK.Core.UI.Web.Nuxt"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,8 @@
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\bin\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.deps.json
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\bin\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.dll
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\bin\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.pdb
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\obj\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.csproj.CoreCompileInputs.cache
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\obj\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.AssemblyInfoInputs.cache
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\obj\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.AssemblyInfo.cs
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\obj\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.dll
+c:\repo\Seele\RAK\Fwk\UI\RAK.Fwk.UI.Desk.Console\obj\Debug\netstandard2.0\RAK.Fwk.UI.Desk.Console.pdb
