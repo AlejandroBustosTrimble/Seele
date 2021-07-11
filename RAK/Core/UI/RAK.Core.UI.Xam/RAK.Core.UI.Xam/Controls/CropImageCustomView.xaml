@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RAK.Core.UI.Xam.Controls.CropImageCustomView"
+             xmlns:imgcrop="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.ImageCropView"
+             x:Name="this">
+  <ContentView.Content>
+
+        <StackLayout x:Name="mainStackLayout">
+            <imgcrop:ImageCropView HeightRequest="350" WidthRequest="400" x:Name="cropView" Source="{Binding Source={x:Reference this}, Path=CropViewSource}"/>
+            <StackLayout x:Name="buttonLayout">
+            </StackLayout>
+        </StackLayout>
+      
+  </ContentView.Content>
+</ContentView>

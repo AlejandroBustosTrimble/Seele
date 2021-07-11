@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<controls:DateRange xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RAK.Core.UI.Xam.Controls.DateTimeRange"
+             xmlns:behaviors="clr-namespace:RAK.Core.UI.Xam.Behaviors"
+             xmlns:controls="clr-namespace:RAK.Core.UI.Xam.Controls">
+	<ContentView.Resources>
+		<ResourceDictionary>
+			<behaviors:IntToGridLengthConverter x:Key="gridLengthConverter" />
+		</ResourceDictionary>
+	</ContentView.Resources>
+  <ContentView.Content>
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="{Binding Source={x:Reference this}, Path=LabelColumnWidth, Converter={StaticResource gridLengthConverter}}" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="100"/>
+			</Grid.ColumnDefinitions>
+
+			<Label Text="Desde" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" FontSize="{Binding Source={x:Reference this}, Path=Size}"/>
+			<DatePicker  Date="{Binding Source={x:Reference this}, Path=DateFrom}" Grid.Row="0" Grid.Column="1" Format="dd/MM/yyyy" />
+			<TimePicker  Time="{Binding Source={x:Reference this}, Path=TimeFrom}" Format="HH:mm" Grid.Row="0" Grid.Column="2"></TimePicker>
+
+			<Label Text="Hasta" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" FontSize="{Binding Source={x:Reference this}, Path=Size}"/>
+			<DatePicker  Date="{Binding Source={x:Reference this}, Path=DateTo}" Grid.Row="1" Grid.Column="1" Format="dd/MM/yyyy"  />
+			<TimePicker  Time="{Binding Source={x:Reference this}, Path=TimeTo}" Format="HH:mm" Grid.Row="1" Grid.Column="2"></TimePicker>
+		</Grid>
+	</ContentView.Content>
+</controls:DateRange>

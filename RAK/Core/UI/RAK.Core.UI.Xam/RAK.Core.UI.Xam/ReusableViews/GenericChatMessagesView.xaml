@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RAK.Core.UI.Xam.ReusableViews.GenericChatMessagesView"
+             xmlns:behaviors="clr-namespace:RAK.Core.UI.Xam.Behaviors;assembly=RAK.Core.UI.Xam"
+             xmlns:controls="clr-namespace:RAK.Core.UI.Xam.Controls;assembly=RAK.Core.UI.Xam"
+             xmlns:local="clr-namespace:RAK.Core.UI.Xam.ReusableViews.GenericChatMessagesResources"
+             x:Name="this">
+
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <local:MessageTemplateSelector x:Key="MessageTemplateSelector"/>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <ContentView.Content>
+        <StackLayout>
+            <ListView
+			x:Name="MessagesListView" 
+			ItemTemplate="{StaticResource MessageTemplateSelector}" 
+			ItemsSource="{Binding Source={x:Reference this}, Path=CHATSource}"
+            BackgroundColor="White"
+			HasUnevenRows="True" 
+            ItemSelected="OnItemSelected" 
+			ItemTapped="OnItemTapped" 
+			SeparatorVisibility="None"/>
+
+            <StackLayout Orientation="Vertical" Grid.Row="1" Padding="10" BackgroundColor="#EFEFEF">
+            <StackLayout x:Name="StackEntry" Orientation="Horizontal">
+                <controls:CustomEntry x:Name="txtNewMsg"
+			             HorizontalOptions="FillAndExpand" 
+				         HeightRequest="25" 
+				         Placeholder="Mensaje"
+                         Text="{Binding Source={x:Reference this}, Path=TEXTSource}">
+                         <Entry.Behaviors>
+                            <behaviors:EntryLengthValidatorBehavior  MaxLength="500" />
+                        </Entry.Behaviors>
+                </controls:CustomEntry>
+                
+                <!--Se crea el layout y luego por codigo con metodo Registrar se le va a agregar un boton especifico-->
+                    <StackLayout x:Name="stackButton">
+
+                    </StackLayout>
+
+                </StackLayout>
+            <controls:BoxViewKeyboardHeight HeightRequest="0"/>
+        </StackLayout>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

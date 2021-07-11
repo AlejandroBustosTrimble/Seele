@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             mc:Ignorable="d"
+             x:Class="RAK.Core.UI.Xam.Controls.ImageColor">
+  <ContentView.Content>
+        <ffimageloading:CachedImage HorizontalOptions="Center" VerticalOptions="Center" DownsampleToViewSize="true" x:Name="img">
+        </ffimageloading:CachedImage>
+    </ContentView.Content>
+</ContentView>

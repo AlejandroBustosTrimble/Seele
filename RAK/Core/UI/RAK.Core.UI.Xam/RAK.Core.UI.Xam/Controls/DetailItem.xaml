@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RAK.Core.UI.Xam.Controls.DetailItem"
+             x:Name="this">
+  <ContentView.Content>
+      <StackLayout Margin="0">
+            <BoxView HeightRequest="1" BackgroundColor="LightGray"  Margin="0" IsVisible="{Binding Source={x:Reference this}, Path=Visible}"/>
+            <StackLayout IsVisible="{Binding Source={x:Reference this}, Path=Visible}" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="65*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="{Binding Source={x:Reference this}, Path=Title}" HorizontalOptions="StartAndExpand"/>
+                    <Label Grid.Column="1" Text="{Binding Source={x:Reference this}, Path=Importe}" HorizontalOptions="EndAndExpand" XAlign="End" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                </Grid>
+                <!--<StackLayout Orientation="Horizontal">
+                    <Label Text="{Binding Source={x:Reference this}, Path=Title}" HorizontalOptions="StartAndExpand"/>
+                    <Label Text="{Binding Source={x:Reference this}, Path=Importe}" HorizontalOptions="EndAndExpand" XAlign="End" VerticalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                </StackLayout>-->
+            </StackLayout>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

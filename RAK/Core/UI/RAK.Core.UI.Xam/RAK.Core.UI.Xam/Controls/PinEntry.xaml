@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:FWK="clr-namespace:RAK.Core.UI.Xam.Controls"
+             xmlns:behaviors="clr-namespace:RAK.Core.UI.Xam.Behaviors"
+             xmlns:converters="clr-namespace:RAK.Core.UI.Xam.Converters"
+             x:Class="RAK.Core.UI.Xam.Controls.PinEntry">
+   <ContentView.Resources>
+        <ResourceDictionary>
+            <converters:NullableLongConverter x:Key="NullableLongConverter"></converters:NullableLongConverter>
+        </ResourceDictionary>
+    </ContentView.Resources>
+  <ContentView.Content>
+      <StackLayout Orientation="Horizontal">
+            <!-- Pin 1 -->
+            <FWK:RAKIconEntry x:Name="pinPago1" HorizontalOptions="Center" IsPassword="True"  WidthRequest="60" HeightIos="40" HeightRequest="100" Keyboard="Numeric" MaxLength="1"
+                               TextColor="Black" FontSize="65" TextChanged="PinPago1_TextChanged" HorizontalTextAlignment="Center">
+                <Entry.Behaviors>
+                    <behaviors:NumericValidationBehavior />
+                </Entry.Behaviors>
+            </FWK:RAKIconEntry>
+            <!-- Fin Pin 1 -->
+
+            <!-- Pin 2 -->
+            <FWK:RAKIconEntry x:Name="pinPago2" HorizontalOptions="Center" IsPassword="True" WidthRequest="60" HeightIos="40" HeightRequest="100" Keyboard="Numeric" MaxLength="1"
+                               TextColor="Black" FontSize="65" TextChanged="PinPago2_TextChanged" HorizontalTextAlignment="Center">
+                <Entry.Behaviors>
+                    <behaviors:NumericValidationBehavior />
+                </Entry.Behaviors>
+            </FWK:RAKIconEntry>
+            <!-- Fin Pin 2 -->
+
+            <!-- Pin 3 -->
+            <FWK:RAKIconEntry x:Name="pinPago3" HorizontalOptions="Center" IsPassword="True"  WidthRequest="60" HeightIos="40" HeightRequest="100" Keyboard="Numeric" MaxLength="1"
+                               TextColor="Black" FontSize="65" TextChanged="PinPago3_TextChanged" HorizontalTextAlignment="Center">
+                <Entry.Behaviors>
+                    <behaviors:NumericValidationBehavior />
+                </Entry.Behaviors>
+            </FWK:RAKIconEntry>
+            <!-- Fin Pin 3 -->
+
+            <!-- Pin 4 -->
+            <FWK:RAKIconEntry x:Name="pinPago4" HorizontalOptions="Center" IsPassword="True"  WidthRequest="60" HeightIos="40" HeightRequest="100" Keyboard="Numeric" MaxLength="1"
+                               TextColor="Black" FontSize="65" HorizontalTextAlignment="Center" TextChanged="PinPago4_TextChanged">
+                <Entry.Behaviors>
+                    <behaviors:NumericValidationBehavior />
+                </Entry.Behaviors>
+            </FWK:RAKIconEntry>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

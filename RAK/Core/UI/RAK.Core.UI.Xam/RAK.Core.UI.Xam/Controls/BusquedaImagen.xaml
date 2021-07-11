@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RAK.Core.UI.Xam.Controls.BusquedaImagen"
+             x:Name="this">
+  <ContentView.Content>
+      <StackLayout Padding="10">
+            <Entry IsVisible="False" Text="{Binding Source={x:Reference this}, Path=ID}"></Entry>
+            <Frame>
+                <StackLayout>
+                    <Image Source="{Binding Source={x:Reference this}, Path=Image}" HeightRequest="100" WidthRequest="100"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="40"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+						<Entry Text="{Binding Source={x:Reference this}, Path=Text}" Placeholder="{Binding Source={x:Reference this}, Path=Placeholder}" IsEnabled="False" Grid.Column="0"/>
+                        <Button Text="&#xf002;" x:Name="btnModal" TextColor="White" BorderRadius="10" BackgroundColor="#E51E00" BorderWidth="1"  Style="{StaticResource IconButton}" Grid.Column="1"/>
+                    </Grid>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

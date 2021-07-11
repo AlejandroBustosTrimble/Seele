@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:RAK.Core.UI.Xam.Controls"
+             x:Class="RAK.Core.UI.Xam.Controls.CustomEntryWithShakeLabel"
+            x:Name="this">
+    <ContentView.Content>
+
+        <StackLayout>
+            <controls:CustomEntry x:Name="txtMainEntry"
+                                  Placeholder="{Binding Source={x:Reference this}, Path=MainPlaceHolder}"
+                                  TextChanged="TxtMainEntry_TextChanged"
+                                  Text="{Binding Source={x:Reference this}, Path=MainText}">
+
+            </controls:CustomEntry>
+            <Label x:Name="lblError" HorizontalOptions="Center" XAlign="Center" Margin="25,0,25,8" IsVisible="True" Style="{StaticResource fontFW}" FontSize="13"  />
+
+        </StackLayout>
+
+
+    </ContentView.Content>
+</ContentView>

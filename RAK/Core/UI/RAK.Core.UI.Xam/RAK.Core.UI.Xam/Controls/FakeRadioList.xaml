@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RAK.Core.UI.Xam.Controls.FakeRadioList"
+             x:Name="this">
+  <ContentView.Content>
+		<StackLayout BindableLayout.ItemsSource="{Binding Source={x:Reference this}, Path=Items}"  >
+			<BindableLayout.ItemTemplate>
+				<DataTemplate>
+					<StackLayout>
+						<StackLayout Orientation="Horizontal">
+							<CheckBox IsChecked="{Binding Checked}" VerticalOptions="Center" CheckedChanged="CheckBox_CheckedChanged"  />
+							<Label Text="{Binding Nombre}" VerticalTextAlignment="Center"/>
+						</StackLayout>
+					</StackLayout>
+				</DataTemplate>
+			</BindableLayout.ItemTemplate>
+		</StackLayout>
+	</ContentView.Content>
+</ContentView>
